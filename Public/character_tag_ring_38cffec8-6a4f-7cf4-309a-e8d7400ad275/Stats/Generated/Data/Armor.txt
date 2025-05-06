@@ -1,4 +1,4 @@
-new entry "MAG_Ring_Character_Tags_Ring"
+new entry "MAG_Ring_Character_Tag_Ring"
 type "Armor"
 using "_Ring_Magic"
 data "RootTemplate" "db97ebba-58c8-4a29-8c28-cdcb1d211cb2"

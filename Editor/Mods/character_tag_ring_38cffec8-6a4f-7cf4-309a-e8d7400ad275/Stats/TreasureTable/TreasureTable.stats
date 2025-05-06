@@ -6,8 +6,9 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ba159d97-3696-44d5-b604-170a1ce29c21" />
         <field name="Name" type="NameTableFieldDefinition" value="TUT_Chest_Potions" />
         <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Ring_Character_Tags_Ring" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Ring_Character_Tag_Ring" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

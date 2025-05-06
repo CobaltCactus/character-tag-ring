@@ -315,6 +315,19 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="55d3930b-42f8-40ec-93cc-d5a86813bf5b" />
+        <field name="Name" type="NameTableFieldDefinition" value="PALADIN_CROWN_SUBCLASS_FAKE_TAG" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h265ab748gec12ga1dfg5ed5g9e2320525f69" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2bbcedbdg04eeg7815g43b7g3cafbad0f696" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PALADIN_CROWN_SUBCLASS_FAKE_TAG" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(PALADIN_CROWN);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="63f37929-6bcb-40c8-a957-d06a82b2435e" />
         <field name="Name" type="NameTableFieldDefinition" value="OATHBREAKER_SUBCLASS_FAKE_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb1d2f645g130dgb95fg0f88gf126ddd25f41" version="1" />
@@ -432,6 +445,19 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a843de4e-b049-446e-8b3a-0e2293385f62" />
+        <field name="Name" type="NameTableFieldDefinition" value="WARLOCK_HEXBLADE_SUBCLASS_FAKE_TAG" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h28f5627fg4df8g8880ga467g5dd8c6f47197" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hea5674d0g58f9g1a07g4859g0679b2ce696b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WARLOCK_HEXBLADE_SUBCLASS_FAKE_TAG" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WARLOCK_HEXBLADE);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8bf3dd02-4980-433e-bcfd-cbfe88ab708c" />
         <field name="Name" type="NameTableFieldDefinition" value="WIZARD_NECROMANCY_SUBCLASS_FAKE_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3c06a37dgb40agc330g38f1ga93ba4d8b45c" version="1" />
@@ -439,6 +465,19 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
         <field name="StackId" type="StringTableFieldDefinition" value="WIZARD_NECROMANCY_SUBCLASS_FAKE_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WIZARD_NECROMANCY);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21ae3a6c-4a0d-44be-bd1c-2e2601f8b480" />
+        <field name="Name" type="NameTableFieldDefinition" value="WIZARD_BLADESINGING_SUBCLASS_FAKE_TAG" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3046fb7eg901bg570bg5e35gd83b7a0d79d2" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h85f8a28cgf1a6g1ca7g27a6g331ef9a14e31" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WIZARD_BLADESINGING_SUBCLASS_FAKE_TAG" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WIZARD_BLADESINGING);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>

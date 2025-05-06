@@ -376,6 +376,18 @@
   <content contentuid="h847e9976g8dfbg8d99g138ag8e052ed0fbcd" version="1">Add the Short tag.</content>
   <content contentuid="h7cc7ccbdg865bg0b3bgd01dge28691705542" version="1">Rare (hidden)</content>
   <content contentuid="hc76f8a6bg1745g0afcg3c11g0122db9148e7" version="1">Add the Rare tag.</content>
-  <content contentuid="h9e32e9e2g3eb0g030bg8a08gcc37ec46cbb3" version="1">Character Tags Ring</content>
-  <content contentuid="haa3f5c50g1b82gd362gc378g807ae180df5a" version="1">This magical ring allows you to manipulate your character's attribute tags.</content>
+  <content contentuid="h9e32e9e2g3eb0g030bg8a08gcc37ec46cbb3" version="3">Character Tag Ring</content>
+  <content contentuid="haa3f5c50g1b82gd362gc378g807ae180df5a" version="3">This magical ring allows you to manipulate your character's attribute tags.</content>
+  <content contentuid="h265ab748gec12ga1dfg5ed5g9e2320525f69" version="1">Oath of the Crown</content>
+  <content contentuid="h2bbcedbdg04eeg7815g43b7g3cafbad0f696" version="1">You have this tag.</content>
+  <content contentuid="h8014f353g959agcf1bgdb14g016ec925c924" version="1">Oath of the Crown</content>
+  <content contentuid="h27b8b1caga393g9b6dged2bgc14f3fd2f71c" version="1">Added class tag.</content>
+  <content contentuid="h28f5627fg4df8g8880ga467g5dd8c6f47197" version="2">The Hexblade</content>
+  <content contentuid="hea5674d0g58f9g1a07g4859g0679b2ce696b" version="1">You have this tag.</content>
+  <content contentuid="h26173b49g1d70g3351g4209gb19914e207fb" version="2">The Hexblade</content>
+  <content contentuid="h06ab672bga023gac56gfc8bg3d3e2d5860f1" version="1">Added class tag.</content>
+  <content contentuid="h3046fb7eg901bg570bg5e35gd83b7a0d79d2" version="2">Bladesinger (hidden)</content>
+  <content contentuid="h85f8a28cgf1a6g1ca7g27a6g331ef9a14e31" version="1">You have this tag. </content>
+  <content contentuid="h56501c50gda89gf3ddg3504gad33c0982151" version="2">Bladesinger (hidden)</content>
+  <content contentuid="h3ba7f22dg1e66gfb01g25d1gbcbe296613e4" version="1">Added class tag.</content>
 </contentList>
