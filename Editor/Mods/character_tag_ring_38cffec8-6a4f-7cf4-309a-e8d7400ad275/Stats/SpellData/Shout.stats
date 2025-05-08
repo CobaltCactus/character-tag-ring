@@ -10,7 +10,7 @@
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_ChangeClassTags_AddAllClasses;Shout_ChangeClassTags_AddAllSubclasses;Shout_ChangeClassTags_RemoveAllClasses;Shout_ChangeClassTags_BARBARIAN;Shout_ChangeClassTags_BARD;Shout_ChangeClassTags_CLERIC;Shout_ChangeClassTags_DRUID;Shout_ChangeClassTags_FIGHTER;Shout_ChangeClassTags_MONK;Shout_ChangeClassTags_PALADIN;Shout_ChangeClassTags_RANGER;Shout_ChangeClassTags_ROGUE;Shout_ChangeClassTags_SORCERER;Shout_ChangeClassTags_WARLOCK;Shout_ChangeClassTags_WIZARD;Shout_ChangeSubclassTags_BERSERKER;Shout_ChangeSubclassTags_PALADIN_ANCIENTS;Shout_ChangeSubclassTags_PALADIN_DEVOTION;Shout_ChangeSubclassTags_PALADIN_VENGEANCE;Shout_ChangeSubclassTags_PALADIN_CROWN;Shout_ChangeSubclassTags_OATHBREAKER;Shout_ChangeSubclassTags_RANGER_BEAST_MASTER;Shout_ChangeSubclassTags_RANGER_HUNTER;Shout_ChangeSubclassTags_RANGER_GLOOM_STALKER;Shout_ChangeSubclassTags_SORCERER_DRACONIC;Shout_ChangeSubclassTags_SORCERER_WILDMAGIC;Shout_ChangeSubclassTags_WARLOCK_FIEND;Shout_ChangeSubclassTags_WARLOCK_GREAT_OLD_ONE;Shout_ChangeSubclassTags_WARLOCK_ARCHFEY;Shout_ChangeSubclassTags_WARLOCK_HEXBLADE;Shout_ChangeSubclassTags_WIZARD_NECROMANCY;Shout_ChangeSubclassTags_WIZARD_BLADESINGING;" />
         <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineIntervention_Attack" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0c73c9f3gc849g40afg791bg5662f4ca692a" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3d2225c3gaf46ga97ag891eg3d5d978e10a4" version="1" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
@@ -452,7 +452,7 @@
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags_RemoveDeity;Shout_ChangeDeityTags_BAHAMUT;Shout_ChangeDeityTags_BANE;Shout_ChangeDeityTags_BHAAL;Shout_ChangeDeityTags_CORELLONLARETHIAN;Shout_ChangeDeityTags_EILISTRAEE;Shout_ChangeDeityTags_GARLGLITTERGOLD;Shout_ChangeDeityTags_GRUUMSH;Shout_ChangeDeityTags_HELM;Shout_ChangeDeityTags_ILMATER;Shout_ChangeDeityTags_KELEMVOR;Shout_ChangeDeityTags_LADUGUER;Shout_ChangeDeityTags_LATHANDER;Shout_ChangeDeityTags_LOLTH;Shout_ChangeDeityTags_MIELIKKI;Shout_ChangeDeityTags_MORADIN;Shout_ChangeDeityTags_MYRKUL;Shout_ChangeDeityTags_MYSTRA;Shout_ChangeDeityTags_OGHMA;Shout_ChangeDeityTags_SELUNE;Shout_ChangeDeityTags_SHAR;Shout_ChangeDeityTags_TALOS;Shout_ChangeDeityTags_TEMPUS;Shout_ChangeDeityTags_TIAMAT;Shout_ChangeDeityTags_TYMORA;Shout_ChangeDeityTags_TYR;Shout_ChangeDeityTags_VLAAKITH;Shout_ChangeDeityTags_YONDALLA;" />
         <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineIntervention_Heal" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h54aa3556g7628ge7bbgb4a2g2949ce1bbf5f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h92a632fbg836bgca22g7d8eg3b2697d163bd" version="1" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
@@ -842,7 +842,7 @@
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags_AddAllRaces;Shout_ChangeRaceTags_RemoveAllRaces;Shout_ChangeRaceTags_ELF;Shout_ChangeRaceTags_HIGHELF;Shout_ChangeRaceTags_WOODELF;Shout_ChangeRaceTags_TIEFLING;Shout_ChangeRaceTags_ASMODEUSTIEFLING;Shout_ChangeRaceTags_MEPHISTOPHELESTIEFLING;Shout_ChangeRaceTags_ZARIELTIEFLING;Shout_ChangeRaceTags_DROWELF;Shout_ChangeRaceTags_LOLTHDROWELF;Shout_ChangeRaceTags_SELDARINEDROWELF;Shout_ChangeRaceTags_GITHYANKI;Shout_ChangeRaceTags_HUMAN;Shout_ChangeRaceTags_DWARF;Shout_ChangeRaceTags_HILLDWARF;Shout_ChangeRaceTags_MOUNTAINDWARF;Shout_ChangeRaceTags_DUERGARDWARF;Shout_ChangeRaceTags_HALFELF;Shout_ChangeRaceTags_HIGHHALFELF;Shout_ChangeRaceTags_WOODHALFELF;Shout_ChangeRaceTags_DROWHALFELF;Shout_ChangeRaceTags_HALFLING;Shout_ChangeRaceTags_LIGHTFOOTHALFLING;Shout_ChangeRaceTags_STOUTHALFLING;Shout_ChangeRaceTags_GNOME;Shout_ChangeRaceTags_ROCKGNOME;Shout_ChangeRaceTags_DEEPGNOME;Shout_ChangeRaceTags_FORESTGNOME;Shout_ChangeRaceTags_DRAGONBORN;Shout_ChangeRaceTags_HALFORC;" />
         <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineIntervention_Weapon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc2487145g87c6gae8fgc220gb403d5b86734" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3e9aedf7g3063gb057gb3bbgf61206ab3ecb" version="1" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
@@ -1271,7 +1271,7 @@
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_ChangeOtherTags_RemoveAllOthers;Shout_ChangeOtherTags_AddBaldurian;Shout_ChangeOtherTags_AddUnderdark;Shout_ChangeOtherTags_AddShort;Shout_ChangeOtherTags_AddRare;" />
         <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineIntervention_Supplies" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he5795db2g0d24g715ag9996g8a05716fa1ba" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6b652613gd949g88fbg163ega8cc1890d18e" version="1" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />

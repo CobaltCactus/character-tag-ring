@@ -21,7 +21,7 @@
                     <attribute id="Author" type="LSString" value="CobaltCactus"/>
                     <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
                     <attribute id="Description" type="LSString" value="Adds the Character Tag Ring to the game. It has spells that allows your character to get all class, subclass, deity, and race tags in the game.  Inspired by the abandoned &quot;Character Tags Ring&quot; by Neclomant on NexusMods with permission."/>
-                    <attribute id="FileSize" type="uint64" value="255849"/>
+                    <attribute id="FileSize" type="uint64" value="0"/>
                     <attribute id="Folder" type="LSString" value="character_tag_ring_38cffec8-6a4f-7cf4-309a-e8d7400ad275"/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
                     <attribute id="MD5" type="LSString" value="213ad248c6c42c1e454ba0620183e6d3"/>
