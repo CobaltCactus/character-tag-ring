@@ -6,7 +6,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="dd686c25-e1ce-40a4-a387-a22ca532c267" />
         <field name="Name" type="NameTableFieldDefinition" value="CLASS_RING_TAG_ALL" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbdae7b74gb68bg5f18gbea4g89e0942fe9c4" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf940fc65g37fcga924gda87g17b266b5d023" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf940fc65g37fcga924gda87g17b266b5d023" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_PassWithoutTrace" />
         <field name="StackId" type="StringTableFieldDefinition" value="CLASS_RING_TAG_ALL" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(BARBARIAN);Tag(BARD);Tag(DRUID);Tag(CLERIC);Tag(FIGHTER);Tag(MONK);Tag(PALADIN);Tag(RANGER);Tag(ROGUE);Tag(SORCERER);Tag(WARLOCK);Tag(WIZARD);" />
@@ -19,7 +19,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a29ef58a-a664-4987-a641-0e1e26417b9d" />
         <field name="Name" type="NameTableFieldDefinition" value="SUBCLASS_RING_TAG_ALL" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9b4bc99dg7f09g6be2g53e2g2a12f9c1af7f" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6c0e85a3gfa80g626agc25agdd275805f5b9" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6c0e85a3gfa80g626agc25agdd275805f5b9" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_PassWithoutTrace" />
         <field name="StackId" type="StringTableFieldDefinition" value="SUBCLASS_RING_TAG_ALL" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(BERSERKER);Tag(PALADIN_ANCIENTS);Tag(PALADIN_DEVOTION);Tag(PALADIN_VENGEANCE);Tag(OATHBREAKER);Tag(RANGER_BEAST_MASTER);Tag(RANGER_HUNTER);Tag(RANGER_GLOOM_STALKER);Tag(SORCERER_DRACONIC);Tag(SORCERER_WILDMAGIC);Tag(WARLOCK_FIEND);Tag(WARLOCK_GREAT_OLD_ONE);Tag(WARLOCK_ARCHFEY);Tag(WIZARD_NECROMANCY);" />
@@ -32,7 +32,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9cac3ff5-6b03-4330-bd9e-9b3fb4a27ede" />
         <field name="Name" type="NameTableFieldDefinition" value="DEITY_RING_TAG_REMOVER" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb94d678eg81e6gce25gc46dg8ffd73f4172e" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h984c9421g280dg1ae6g2620g26fab93c4243" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h984c9421g280dg1ae6g2620g26fab93c4243" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Bane" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG_REMOVER" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(PALADIN);Tag(CLERIC);" />
@@ -45,7 +45,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4b2d885e-df9b-48ba-ba03-79143fe09e81" />
         <field name="Name" type="NameTableFieldDefinition" value="RACE_RING_TAG_ALL" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h66e4fdbdg3eb5g16dbgb8deg0da4e603961c" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha0b17e87gc7b9g1708g116cg859d9745a1a7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha0b17e87gc7b9g1708g116cg859d9745a1a7" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Monster_Slayer_RelentlessLunge" />
         <field name="StackId" type="StringTableFieldDefinition" value="RACE_RING_TAG_ALL" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ELF);Tag(HIGHELF);Tag(WOODELF);Tag(TIEFLING);Tag(ASMODEUSTIEFLING);Tag(MEPHISTOPHELESTIEFLIN);Tag(ZARIELTIEFLING);Tag(DROWELF);Tag(LOLTHDROWELF);Tag(SELDARINEDROWELF);Tag(GITHYANKI);Tag(HUMAN);Tag(DWARF);Tag(HILLDWARF);Tag(MOUNTAINDWARF);Tag(DUERGARDWARF);Tag(HALFELF);Tag(HIGHHALFELF);Tag(WOODHALFELF);Tag(DROWHALFELF);Tag(HALFLING);Tag(LIGHTFOOTHALFLING);Tag(STOUTHALFLING);Tag(GNOME);Tag(ROCKGNOME);Tag(DEEPGNOME);Tag(FORESTGNOME);Tag(DRAGONBORN);Tag(HALFORC);" />
@@ -58,8 +58,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="392a6cee-97b2-4031-ba73-71c61d62ff32" />
         <field name="Name" type="NameTableFieldDefinition" value="BALDURIAN_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf820b931g1253g2320g4c59gbbc849bf50e1" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hac0099cfge599ge438gaeb5g91743a0a3e57" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Bless" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hac0099cfge599ge438gaeb5g91743a0a3e57" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_Baldurian" />
         <field name="StackId" type="StringTableFieldDefinition" value="BALDURIAN_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(BALDURIAN);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -71,8 +71,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="81e1dc9a-1288-44c0-9012-e746d908806e" />
         <field name="Name" type="NameTableFieldDefinition" value="UNDERDARK_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h33020cb6g8064gafb8ge162g152648937c9d" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h42da2f6ag96c9g9635g2f6dg10d63199682e" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Bless" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h42da2f6ag96c9g9635g2f6dg10d63199682e" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_Underdark" />
         <field name="StackId" type="StringTableFieldDefinition" value="UNDERDARK_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(UNDERDARK);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -84,8 +84,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2e763c34-c2fd-4b60-95d6-553c684c43e9" />
         <field name="Name" type="NameTableFieldDefinition" value="SHORT_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h15e99596geea2g4880g5fd0ga90c4117d7e2" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2a1e2676g37b0ga251g4031g1832a5d6b7f9" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Bless" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2a1e2676g37b0ga251g4031g1832a5d6b7f9" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_Short" />
         <field name="StackId" type="StringTableFieldDefinition" value="SHORT_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(SHORT);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -97,8 +97,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2bd0eadd-63f8-4ad2-a32d-8ba7fc22c4c3" />
         <field name="Name" type="NameTableFieldDefinition" value="RARE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he234ce7ag2641g0698g465eg4599a8a5832e" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9f04dffdg6435ga4aaga824g21c20473ae7a" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Bless" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9f04dffdg6435ga4aaga824g21c20473ae7a" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_Rare" />
         <field name="StackId" type="StringTableFieldDefinition" value="RARE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(RARE);Tag(REALLY_RARE);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -110,8 +110,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="82f8b686-bc55-4a4c-aab5-8a79cbdd55b3" />
         <field name="Name" type="NameTableFieldDefinition" value="BARBARIAN_CLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbb12676ag9fbfg42a7g5556gaf64bf827c62" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h61082af6g3454gc715g4b37g05ddb8dfa4b9" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h61082af6g3454gc715g4b37g05ddb8dfa4b9" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Barbarian" />
         <field name="StackId" type="StringTableFieldDefinition" value="BARBARIAN_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(BARBARIAN);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -123,8 +123,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fd02c8f0-0bb3-4c7f-99a9-81e75093b17e" />
         <field name="Name" type="NameTableFieldDefinition" value="BARD_CLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9f98b5c2g886fg8efage680g01b9d53401e0" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4e777bebg62a9gd348g464bg1b95b2b02d3f" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4e777bebg62a9gd348g464bg1b95b2b02d3f" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Bard" />
         <field name="StackId" type="StringTableFieldDefinition" value="BARD_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(BARD);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -136,8 +136,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b55b7355-3d5d-4339-9d3b-c9fc9ebe00f6" />
         <field name="Name" type="NameTableFieldDefinition" value="CLERIC_CLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h846560b0g7964g39ceg00f2g1602224764d6" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d70c435gf6b1ge1ebgd113g5c23cb94390f" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d70c435gf6b1ge1ebgd113g5c23cb94390f" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Cleric" />
         <field name="StackId" type="StringTableFieldDefinition" value="CLERIC_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(CLERIC);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -149,8 +149,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0356611c-a332-453d-8949-13eb109eeef4" />
         <field name="Name" type="NameTableFieldDefinition" value="DRUID_CLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2a3a9c54gc356g98d8gec47g556f1c17c9c8" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h61274a6ag90bag1957g1ccdgf8688e36ecc4" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h61274a6ag90bag1957g1ccdgf8688e36ecc4" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Druid" />
         <field name="StackId" type="StringTableFieldDefinition" value="DRUID_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(DRUID);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -162,8 +162,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="27557c10-8321-416b-af0d-1aded1da060d" />
         <field name="Name" type="NameTableFieldDefinition" value="FIGHTER_CLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he3792fefg5ec8g8e9egdc7cg81e5bbba5883" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbdab57e8gbc2cgaeefg2885ge09501cb940c" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbdab57e8gbc2cgaeefg2885ge09501cb940c" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Fighter" />
         <field name="StackId" type="StringTableFieldDefinition" value="FIGHTER_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(FIGHTER);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -175,8 +175,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b5715042-4755-4889-bcfa-ae9c74f6b9a3" />
         <field name="Name" type="NameTableFieldDefinition" value="MONK_CLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h238ac0f4ga150gd539g991dg92b3d04c57a4" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h96073dc2g28a5g9fb3g0031g1d5731481a66" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h96073dc2g28a5g9fb3g0031g1d5731481a66" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Monk" />
         <field name="StackId" type="StringTableFieldDefinition" value="MONK_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(MONK);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -188,8 +188,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="02d0a5f2-9766-4ccb-8b66-edc98e8219a3" />
         <field name="Name" type="NameTableFieldDefinition" value="PALADIN_CLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd9a17a7dgb556ge623g50d5gb6a0e6e2c3d4" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h81eea584g6798gf163g5ce6gd93d8ddef3a9" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h81eea584g6798gf163g5ce6gd93d8ddef3a9" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Paladin" />
         <field name="StackId" type="StringTableFieldDefinition" value="PALADIN_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(PALADIN);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -201,8 +201,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a08d3cb2-ae28-4c18-8c74-7a0d9bbd4af7" />
         <field name="Name" type="NameTableFieldDefinition" value="RANGER_CLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7fc62e72g42dfg21ccgccccg5c8bfb0f0b25" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb6e902ebgf3e4g3e23gf3d2g5936246ca55b" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb6e902ebgf3e4g3e23gf3d2g5936246ca55b" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Ranger" />
         <field name="StackId" type="StringTableFieldDefinition" value="RANGER_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(RANGER);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -214,8 +214,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0133241a-a534-40ac-9a5f-e124e273f64b" />
         <field name="Name" type="NameTableFieldDefinition" value="ROGUE_CLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6a3981d3g30a3g9511gf66cg54e28efaa360" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5053d321gc841g8d27g8fc1g75617aba4554" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5053d321gc841g8d27g8fc1g75617aba4554" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Rogue" />
         <field name="StackId" type="StringTableFieldDefinition" value="ROGUE_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ROGUE);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -227,8 +227,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f65b7d5f-f174-4961-8e77-6951dc8e00d7" />
         <field name="Name" type="NameTableFieldDefinition" value="SORCERER_CLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfdfeae63g2b85gfb30gebc0ge1683ccedba5" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3bee8da8ge5bfgad20ge682g48c700e76c21" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3bee8da8ge5bfgad20ge682g48c700e76c21" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Sorcerer" />
         <field name="StackId" type="StringTableFieldDefinition" value="SORCERER_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(SORCERER);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -240,8 +240,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="48686723-2454-427d-b1b0-71c259468f91" />
         <field name="Name" type="NameTableFieldDefinition" value="WARLOCK_CLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1e520311g641dg0694g4e27ge9930f87ac67" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h072afc9fg97bdg90e3gf9ecgc9535237d758" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h072afc9fg97bdg90e3gf9ecgc9535237d758" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Warlock" />
         <field name="StackId" type="StringTableFieldDefinition" value="WARLOCK_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WARLOCK);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -253,8 +253,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a3e8c85f-5312-4265-9a91-f47b063bdf25" />
         <field name="Name" type="NameTableFieldDefinition" value="WIZARD_CLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6f10e600gde7egc371ge321g58ae1f798893" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h02f435e9gb64dg820dgbdb2g291b9af189b1" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h02f435e9gb64dg820dgbdb2g291b9af189b1" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Wizard" />
         <field name="StackId" type="StringTableFieldDefinition" value="WIZARD_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WIZARD);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -266,8 +266,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f265feb6-8303-44b4-994f-dd0f3184bacb" />
         <field name="Name" type="NameTableFieldDefinition" value="BERSERKER_SUBCLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8d7dcacag808cg15e9gc512g2f840df65ccd" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc22bd0a9ga9aag0900g037fg1d36cc85623d" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc22bd0a9ga9aag0900g037fg1d36cc85623d" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Berserker" />
         <field name="StackId" type="StringTableFieldDefinition" value="BERSERKER_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(BERSERKER);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -279,8 +279,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6836bd57-2c68-4acd-aa2e-2c2d2dbf4d87" />
         <field name="Name" type="NameTableFieldDefinition" value="PALADIN_ANCIENTS_SUBCLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h459b0169g7fcag2558ge20dgaf188e03852d" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h196a000cg56d3gab41ge63fg7f4db17c563d" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h196a000cg56d3gab41ge63fg7f4db17c563d" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Ancients" />
         <field name="StackId" type="StringTableFieldDefinition" value="PALADIN_ANCIENTS_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(PALADIN_ANCIENTS);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -292,8 +292,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1fec78f0-07f3-41f1-90b6-93e3ae86cf26" />
         <field name="Name" type="NameTableFieldDefinition" value="PALADIN_DEVOTION_SUBCLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9c576f52g12efg47adgaec7g2be1e58f8c49" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he14eb5b3g58afg9464g37f5g9c4001321133" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he14eb5b3g58afg9464g37f5g9c4001321133" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Devotion" />
         <field name="StackId" type="StringTableFieldDefinition" value="PALADIN_DEVOTION_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(PALADIN_DEVOTION);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -305,8 +305,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0b29f36c-f6ee-48ac-b8e1-56b36df6db7d" />
         <field name="Name" type="NameTableFieldDefinition" value="PALADIN_VENGEANCE_SUBCLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h51930c5fgce96gf117g26bag3e99f1e7d3ef" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdc5e212eg1561gd9f0ge0f7gbed647a5b69b" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdc5e212eg1561gd9f0ge0f7gbed647a5b69b" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Vengeance" />
         <field name="StackId" type="StringTableFieldDefinition" value="PALADIN_VENGEANCE_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(PALADIN_VENGEANCE);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -318,8 +318,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="55d3930b-42f8-40ec-93cc-d5a86813bf5b" />
         <field name="Name" type="NameTableFieldDefinition" value="PALADIN_CROWN_SUBCLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h265ab748gec12ga1dfg5ed5g9e2320525f69" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2bbcedbdg04eeg7815g43b7g3cafbad0f696" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2bbcedbdg04eeg7815g43b7g3cafbad0f696" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Crown" />
         <field name="StackId" type="StringTableFieldDefinition" value="PALADIN_CROWN_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(PALADIN_CROWN);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -331,8 +331,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="63f37929-6bcb-40c8-a957-d06a82b2435e" />
         <field name="Name" type="NameTableFieldDefinition" value="OATHBREAKER_SUBCLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb1d2f645g130dgb95fg0f88gf126ddd25f41" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h93dc0331gd93bg6730gf1f0g3e23543955ef" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h93dc0331gd93bg6730gf1f0g3e23543955ef" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Oathbreaker" />
         <field name="StackId" type="StringTableFieldDefinition" value="OATHBREAKER_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(OATHBREAKER);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -344,8 +344,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="113c87c6-7ae4-45ad-815a-29035c04ce1d" />
         <field name="Name" type="NameTableFieldDefinition" value="RANGER_BEAST_MASTER_SUBCLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbd999c52gc205g0a5dgde8fg5bb9abf2c803" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcaf7f91bgbdcbg5d03gaee8ga47b18214176" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcaf7f91bgbdcbg5d03gaee8ga47b18214176" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_BeastMaster" />
         <field name="StackId" type="StringTableFieldDefinition" value="RANGER_BEAST_MASTER_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(RANGER_BEAST_MASTER);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -357,8 +357,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="71e53b19-cdd9-4dc0-b297-05012977d17a" />
         <field name="Name" type="NameTableFieldDefinition" value="RANGER_HUNTER_SUBCLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h107de70fg659cg07bdgf95cgb03787f84ccd" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he7f0f536g9f96g4efdg6ac1ga497474edcff" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he7f0f536g9f96g4efdg6ac1ga497474edcff" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Hunter" />
         <field name="StackId" type="StringTableFieldDefinition" value="RANGER_HUNTER_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(RANGER_HUNTER);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -370,8 +370,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3d626f9a-b51a-411a-a5a9-c78ef51780c9" />
         <field name="Name" type="NameTableFieldDefinition" value="RANGER_GLOOM_STALKER_SUBCLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9ace571cgadc8gfadag2cfdg626d3adec170" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd38c1ccfge932ga2d1gcd2dg37653d8f4012" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd38c1ccfge932ga2d1gcd2dg37653d8f4012" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_GloomStalker" />
         <field name="StackId" type="StringTableFieldDefinition" value="RANGER_GLOOM_STALKER_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(RANGER_GLOOM_STALKER);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -383,8 +383,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="bdcf5acb-76a7-4213-a746-37b2a3a47dda" />
         <field name="Name" type="NameTableFieldDefinition" value="SORCERER_DRACONIC_SUBCLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcb5106f8g66c8gedd3gf700g4055b664bad1" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h10a18675gee85gfdfeg731eg64fe7c67c532" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h10a18675gee85gfdfeg731eg64fe7c67c532" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_DraconicBloodline" />
         <field name="StackId" type="StringTableFieldDefinition" value="SORCERER_DRACONIC_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(SORCERER_DRACONIC);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -396,8 +396,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3b2a2032-02fb-48f0-a484-b78c30826025" />
         <field name="Name" type="NameTableFieldDefinition" value="SORCERER_WILDMAGIC_SUBCLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4e65e2cag02fag7f6bga101g1adadf55b2a4" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd1f71587g396eg70ecgd355g055f579e473e" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd1f71587g396eg70ecgd355g055f579e473e" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_WildMagic" />
         <field name="StackId" type="StringTableFieldDefinition" value="SORCERER_WILDMAGIC_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(SORCERER_WILDMAGIC);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -409,8 +409,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="95330db1-c9ad-410a-a552-7152abd617d5" />
         <field name="Name" type="NameTableFieldDefinition" value="WARLOCK_FIEND_SUBCLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf36365b5g5131gc70dg8ef1gbe3a503352dc" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heb4fc790g394dg0371g36a0gc385ee05697d" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heb4fc790g394dg0371g36a0gc385ee05697d" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Fiend" />
         <field name="StackId" type="StringTableFieldDefinition" value="WARLOCK_FIEND_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WARLOCK_FIEND);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -422,8 +422,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8040df4b-1f46-46ad-ac46-d6683ecd81ce" />
         <field name="Name" type="NameTableFieldDefinition" value="WARLOCK_GREAT_OLD_ONE_SUBCLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8afeaf82g67bcgfefegff8bg9b612e05b80d" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h14f8101dga9ecg91d2g7405gd832ea031fa9" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h14f8101dga9ecg91d2g7405gd832ea031fa9" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_GreatOldOne" />
         <field name="StackId" type="StringTableFieldDefinition" value="WARLOCK_GREAT_OLD_ONE_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WARLOCK_GREAT_OLD_ONE);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -435,8 +435,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="56f9a405-5537-494b-87fb-a3da2f5286cc" />
         <field name="Name" type="NameTableFieldDefinition" value="WARLOCK_ARCHFEY_SUBCLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc308319dgce34g4170gee63g6ee423ce805c" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h248ad4dag5a19g86d9gd56cgcbf92502123a" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h248ad4dag5a19g86d9gd56cgcbf92502123a" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Archfey" />
         <field name="StackId" type="StringTableFieldDefinition" value="WARLOCK_ARCHFEY_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WARLOCK_ARCHFEY);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -448,8 +448,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a843de4e-b049-446e-8b3a-0e2293385f62" />
         <field name="Name" type="NameTableFieldDefinition" value="WARLOCK_HEXBLADE_SUBCLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h28f5627fg4df8g8880ga467g5dd8c6f47197" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hea5674d0g58f9g1a07g4859g0679b2ce696b" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hea5674d0g58f9g1a07g4859g0679b2ce696b" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Hexblade" />
         <field name="StackId" type="StringTableFieldDefinition" value="WARLOCK_HEXBLADE_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WARLOCK_HEXBLADE);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -461,8 +461,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8bf3dd02-4980-433e-bcfd-cbfe88ab708c" />
         <field name="Name" type="NameTableFieldDefinition" value="WIZARD_NECROMANCY_SUBCLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3c06a37dgb40agc330g38f1ga93ba4d8b45c" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heff97471g6c91ga8adgcbf0g963adb9185c4" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heff97471g6c91ga8adgcbf0g963adb9185c4" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Necromancy" />
         <field name="StackId" type="StringTableFieldDefinition" value="WIZARD_NECROMANCY_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WIZARD_NECROMANCY);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -474,8 +474,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="21ae3a6c-4a0d-44be-bd1c-2e2601f8b480" />
         <field name="Name" type="NameTableFieldDefinition" value="WIZARD_BLADESINGING_SUBCLASS_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3046fb7eg901bg570bg5e35gd83b7a0d79d2" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h85f8a28cgf1a6g1ca7g27a6g331ef9a14e31" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h85f8a28cgf1a6g1ca7g27a6g331ef9a14e31" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Bladesinging" />
         <field name="StackId" type="StringTableFieldDefinition" value="WIZARD_BLADESINGING_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WIZARD_BLADESINGING);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -487,8 +487,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="694f751b-8058-4afb-9375-3c305603d37a" />
         <field name="Name" type="NameTableFieldDefinition" value="BAHAMUT_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h458d37bcga77bgec6agfd5cg6e718d174561" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6a1ce261gf96fgb91cgbed3g632445afcafe" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6a1ce261gf96fgb91cgbed3g632445afcafe" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Bahamut" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(BAHAMUT);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -500,8 +500,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c718c0f2-c0b8-4aa0-ac6c-386c63693fd6" />
         <field name="Name" type="NameTableFieldDefinition" value="BANE_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h236c3ae3gcbb1g1a8bgff8ag77a8e444ab8d" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h36ce7380ge537g9629g1182g4e42e940d9c6" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h36ce7380ge537g9629g1182g4e42e940d9c6" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Bane" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(BANE);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -513,8 +513,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="eb676a14-5061-4bfc-bc45-712903eb0d75" />
         <field name="Name" type="NameTableFieldDefinition" value="BHAAL_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haf13dd2agc439geacbg1165ga0dfd905f1ee" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h78a73f76g29f6g6bacg1525g07ab6986f766" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h78a73f76g29f6g6bacg1525g07ab6986f766" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Bhaal" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(BHAAL);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -526,8 +526,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b72f9147-b06c-4745-82d3-d3f45df77255" />
         <field name="Name" type="NameTableFieldDefinition" value="CORELLONLARETHIAN_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4ce14897gad14g770dgd68fg67520089598e" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h34a0c8a4ge5e3g7d46g9309g514612f62169" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h34a0c8a4ge5e3g7d46g9309g514612f62169" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Corellon" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(CORELLONLARETHIAN);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -539,8 +539,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f855bc7e-19f7-4fe1-a0b6-46623878d781" />
         <field name="Name" type="NameTableFieldDefinition" value="EILISTRAEE_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8d36e3dcgae6bg9d85gad54gee806438a850" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbdf80585g08f3geb9bgbfc4gfa57fd1db194" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbdf80585g08f3geb9bgbfc4gfa57fd1db194" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Elistrae" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(EILISTRAEE);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -552,8 +552,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a3076613-8070-44f6-81be-84b0d26aec5c" />
         <field name="Name" type="NameTableFieldDefinition" value="GARLGLITTERGOLD_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd231e8aegb974g097egc2aage9b18abc1b39" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc5c78d73gd2bbg6fa4g0463g675b7cbcef8d" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc5c78d73gd2bbg6fa4g0463g675b7cbcef8d" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Garl" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(GARLGLITTERGOLD);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -565,8 +565,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0c2af82a-c4dd-4daa-b7c8-5603a3be982f" />
         <field name="Name" type="NameTableFieldDefinition" value="GRUUMSH_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h77fca882gce7ag2b7cg5b3cg9d0d96bba792" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbfcaff4dg5df4g247bgab16g4303534eee06" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbfcaff4dg5df4g247bgab16g4303534eee06" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Gruumsh" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(GRUUMSH);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -578,8 +578,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4309e9b7-868f-4fd1-bb1d-7b406652f591" />
         <field name="Name" type="NameTableFieldDefinition" value="HELM_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h75555862g0382gffecgdf79geb0c64b073a4" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h67b64e96g4c61gd970gdb41gbea2a71255f5" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h67b64e96g4c61gd970gdb41gbea2a71255f5" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Helm" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(HELM);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -591,8 +591,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3b1e477e-fbd4-4a79-a3f1-4f29237dfbee" />
         <field name="Name" type="NameTableFieldDefinition" value="ILMATER_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h564ba39egd9d2gad2bg5771gcba9a691a8a0" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb416e15dga39age067g2e10gfb89f1b3a8f2" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb416e15dga39age067g2e10gfb89f1b3a8f2" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Ilmater" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ILMATER);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -604,8 +604,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4049af11-4bff-49c1-a18d-adb9aedab115" />
         <field name="Name" type="NameTableFieldDefinition" value="KELEMVOR_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h943fde33g1913g04e4gd609g22d5e340f692" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha6eb1bcag9ec2g5f31g548cg3c171248fe27" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha6eb1bcag9ec2g5f31g548cg3c171248fe27" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Kelemvor" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(KELEMVOR);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -617,8 +617,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="56ba82c1-fd1a-4521-a30d-27cca515bbfa" />
         <field name="Name" type="NameTableFieldDefinition" value="LADUGUER_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h437f3d44gc77dg1b41g00a9gd9a73e807af3" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1462f75bg3042ga4feg262agd030093c74d2" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1462f75bg3042ga4feg262agd030093c74d2" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Laduguer" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(LADUGUER);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -630,8 +630,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b3995b17-2bff-4b46-8d2c-c5f878efa6b0" />
         <field name="Name" type="NameTableFieldDefinition" value="LATHANDER_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h59dc4a1eg1a8eg7e93g1bbbg44d020b1a1ee" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8111668dg6fcbgdbc4gf019g09448a992480" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8111668dg6fcbgdbc4gf019g09448a992480" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Lathandar" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(LATHANDER);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -643,8 +643,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c7f31a47-b68c-4d9a-b04d-0dfd6f1a8d12" />
         <field name="Name" type="NameTableFieldDefinition" value="LOLTH_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0d773470g88a5g47b7g246bgd5e6b59b29b8" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6619cc15gbb20g6b16gcdaagcd6c430366f2" version="3" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6619cc15gbb20g6b16gcdaagcd6c430366f2" version="4" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Lolth" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(LOLTH);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -656,8 +656,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="68541791-161b-4faf-9e2e-8589fe0c1052" />
         <field name="Name" type="NameTableFieldDefinition" value="MIELIKKI_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5bbf9c57gc85ege89bgcdffgedc9a282657e" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1b87c616gce5fg95d3gbb54g06275a3b2948" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1b87c616gce5fg95d3gbb54g06275a3b2948" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Mielikki" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(MIELIKKI);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -669,8 +669,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="bc4c2e74-42e1-45dc-8e41-bf33cdcb65ae" />
         <field name="Name" type="NameTableFieldDefinition" value="MORADIN_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc35ff0a4gd009g4443g88e2g65cdc2608d9f" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h39a4b381g0d20g50e2gb62ag4f5452f3db52" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h39a4b381g0d20g50e2gb62ag4f5452f3db52" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Moradin" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(MORADIN);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -682,8 +682,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="14400350-43d9-4938-8e85-5f44e4c49a79" />
         <field name="Name" type="NameTableFieldDefinition" value="MYRKUL_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb1acbd5ag1f0dg363dgbed6gb472976e845a" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3ddff6cfg1223g92d4gc832g4aefd5efe9e6" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3ddff6cfg1223g92d4gc832g4aefd5efe9e6" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Myrkul" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(MYRKUL);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -695,8 +695,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5cfe1a22-3a9c-4bae-b8c5-0010c4e1f512" />
         <field name="Name" type="NameTableFieldDefinition" value="MYSTRA_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha41aad19g6fb2g4a1egebfagaf8dc3db46b2" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h89a836e6ga935gb159g4105ga4061752b0f3" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h89a836e6ga935gb159g4105ga4061752b0f3" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Mystra" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(MYSTRA);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -708,8 +708,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e271adc3-3f24-41d3-8db0-79f5bc523335" />
         <field name="Name" type="NameTableFieldDefinition" value="OGHMA_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hea58fd04g5f9eg3454g6d6cg587a4fbdcf7a" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7db6675cg6da9g717dg86f9g23b8ba8484f6" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7db6675cg6da9g717dg86f9g23b8ba8484f6" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Oghma" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(OGHMA);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -721,8 +721,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="dd1d1af9-821d-455d-8076-7fe3bf680d1f" />
         <field name="Name" type="NameTableFieldDefinition" value="SELUNE_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4ed8cf15ge633gffa5g980ag4cfaf7ea0d7b" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7160394age91cg81a9g54ebgcd2cbcd2eb3b" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7160394age91cg81a9g54ebgcd2cbcd2eb3b" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Selune" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(SELUNE);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -734,8 +734,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3b362ec0-b476-4f54-9399-109689b300fe" />
         <field name="Name" type="NameTableFieldDefinition" value="SHAR_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8c38e4ecgdd7dgd41cg3868gb6b7db9c26d4" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h34a5a317g0dfdg4bd4g77bagd7fae5e2aa36" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h34a5a317g0dfdg4bd4g77bagd7fae5e2aa36" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Shar" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(SHAR);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -747,8 +747,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1254fcee-ee2c-4381-b687-2c21ea08247a" />
         <field name="Name" type="NameTableFieldDefinition" value="TALOS_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2acfea1ege510gab71g9d3cg919d00b54708" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h60fb51adg0bcfg1e10g3e4bgce8c364346ce" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h60fb51adg0bcfg1e10g3e4bgce8c364346ce" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Talos" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(TALOS);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -760,8 +760,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7da8871e-5d15-4382-8ed6-ea8088962394" />
         <field name="Name" type="NameTableFieldDefinition" value="TEMPUS_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1cceeea9g896dg5de8gafc8gf8bef65f8219" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he650de6aged4egf01cg8358ge383f035c307" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he650de6aged4egf01cg8358ge383f035c307" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Tempus" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(TEMPUS);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -773,8 +773,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="850b76d2-f1bd-401b-8e9d-59577f7ce19c" />
         <field name="Name" type="NameTableFieldDefinition" value="TIAMAT_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he8e593d2g1edcg2d91gd343ga1de75314cbf" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b720bc5g6881ga20eg61b9ga1b5e565e769" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b720bc5g6881ga20eg61b9ga1b5e565e769" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Tiamat" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(TIAMAT);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -786,8 +786,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fa1e2a05-ff28-4db1-9235-5e050e143e34" />
         <field name="Name" type="NameTableFieldDefinition" value="TYMORA_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0df0a741g8ad3g879bge1fag5b9aa7c7b5ed" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7dc116ebge850gb2bdg5455g0d7f8fccb834" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7dc116ebge850gb2bdg5455g0d7f8fccb834" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Tymora" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(TYMORA);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -799,8 +799,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="87a07720-9aad-4206-be12-db66b56e0787" />
         <field name="Name" type="NameTableFieldDefinition" value="TYR_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb4afb43ag3dabg77dfg6481g85877a17ff0f" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7ab7cb86gcfb9g49c8ge3a4g168dce135860" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7ab7cb86gcfb9g49c8ge3a4g168dce135860" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Tyr" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(TYR);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -812,8 +812,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e9ab013c-b5e7-49f5-a407-f41c67988cb3" />
         <field name="Name" type="NameTableFieldDefinition" value="VLAAKITH_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h62905577gcb6eg10b4g9558g72710a04ca70" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h021fc976g8479g1c64g2388ga817673897a7" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h021fc976g8479g1c64g2388ga817673897a7" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Vlaakith" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(VLAAKITH);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -825,8 +825,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="79477ffc-f16b-4bd2-871b-3b9c2a55b341" />
         <field name="Name" type="NameTableFieldDefinition" value="YONDALLA_DEITY_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3133866fg6cf2gc79cg7a7fge223c470d256" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfb16159dg35c3g0b79g55efg0beb44f1e7bc" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfb16159dg35c3g0b79g55efg0beb44f1e7bc" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Yondolla" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(YONDALLA);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -838,8 +838,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ac160cb5-7729-4912-92cc-004dad3b95cd" />
         <field name="Name" type="NameTableFieldDefinition" value="ELF_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he6e9b237g993fgc68dg5b46g7801843fe28d" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h62ca8a09g8b69g3860g4cbbgb81c1abccc32" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h62ca8a09g8b69g3860g4cbbgb81c1abccc32" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Elf" />
         <field name="StackId" type="StringTableFieldDefinition" value="ELF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ELF);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -851,8 +851,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5893372b-3fa0-4769-a77c-c51b09e0f752" />
         <field name="Name" type="NameTableFieldDefinition" value="HIGHELF_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd6106ce7g27e8gb78bgcdb1gd12a3b3a8240" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he79e67f7gefa7gf32bg8d28ge633e61986af" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he79e67f7gefa7gf32bg8d28ge633e61986af" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_HighElf" />
         <field name="StackId" type="StringTableFieldDefinition" value="HIGHELF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(HIGHELF);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -864,8 +864,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="cc4aa526-1565-4448-9649-c1560473e0cb" />
         <field name="Name" type="NameTableFieldDefinition" value="WOODELF_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h96d88fa8gde13g0ca8gfca1gbbab6f638187" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0a536d19gfaf5gdc47g4140g6ce8501469b5" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0a536d19gfaf5gdc47g4140g6ce8501469b5" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_WoodElf" />
         <field name="StackId" type="StringTableFieldDefinition" value="WOODELF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WOODELF);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -877,8 +877,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="68cbcae4-a65c-436e-aa9a-bdb8e4e13f58" />
         <field name="Name" type="NameTableFieldDefinition" value="TIEFLING_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1a0e36b4g3433ge257g0d18g783f8426e4cb" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc8a31017gc9acga4e9gdd0dg4f666b898290" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc8a31017gc9acga4e9gdd0dg4f666b898290" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Tiefling" />
         <field name="StackId" type="StringTableFieldDefinition" value="TIEFLING_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(TIEFLING);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -890,8 +890,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="14c45a93-4189-4eda-bd0b-14a7c329ca02" />
         <field name="Name" type="NameTableFieldDefinition" value="ASMODEUSTIEFLING_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h67e51b43g521egf718g615dg2374a69936a4" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h45acfa29g6d01g8f7ag7216gccbe32638da1" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h45acfa29g6d01g8f7ag7216gccbe32638da1" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Asmodeus" />
         <field name="StackId" type="StringTableFieldDefinition" value="ASMODEUSTIEFLING_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ASMODEUSTIEFLING);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -903,8 +903,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="abc97800-0ee5-4809-8773-b66f9fd0da0d" />
         <field name="Name" type="NameTableFieldDefinition" value="MEPHISTOPHELESTIEFLING_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf1560fdcg8120g479fga1dbgd501f86981e2" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2f80c2ecg3009gfdb5g4d0bga02c9b3b6fe0" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2f80c2ecg3009gfdb5g4d0bga02c9b3b6fe0" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Mephistopeles" />
         <field name="StackId" type="StringTableFieldDefinition" value="MEPHISTOPHELESTIEFLING_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(MEPHISTOPHELESTIEFLING);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -916,8 +916,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d8bb58b8-70cd-4bcf-863a-d81082acc286" />
         <field name="Name" type="NameTableFieldDefinition" value="ZARIELTIEFLING_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5e428045ga6ebg7ec9g12e3g1a1bdafc1a76" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8d2d75a7g9f28g8d58ge2edg4d2f157a4c84" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8d2d75a7g9f28g8d58ge2edg4d2f157a4c84" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Zariel" />
         <field name="StackId" type="StringTableFieldDefinition" value="ZARIELTIEFLING_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ZARIELTIEFLING);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -929,8 +929,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f546914e-a364-4032-ac1e-47e7eb5a27e5" />
         <field name="Name" type="NameTableFieldDefinition" value="DROWELF_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h738e8110g3667g61dcg0304g037381d4ed58" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1925176dgf511gf785g3fe9gb14ff819aea2" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1925176dgf511gf785g3fe9gb14ff819aea2" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Drow" />
         <field name="StackId" type="StringTableFieldDefinition" value="DROWELF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(DROWELF);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -942,8 +942,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="831d4d19-3710-43db-ac8d-44433f6bbff4" />
         <field name="Name" type="NameTableFieldDefinition" value="LOLTHDROWELF_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0feeb126g14c7gce57g4e53g7be1a5195edd" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd1b03939g32f6g9fe8g0ebdg57af2ba3b29f" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd1b03939g32f6g9fe8g0ebdg57af2ba3b29f" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_LolthSworn" />
         <field name="StackId" type="StringTableFieldDefinition" value="LOLTHDROWELF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(LOLTHDROWELF);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -955,8 +955,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="cac977dc-5e74-4cda-b98c-6e70e8db413a" />
         <field name="Name" type="NameTableFieldDefinition" value="SELDARINEDROWELF_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb0419523g0f86gbee6g8192gff0b979c24f0" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd7c1019eg14f4g3ed6g55e1gff0c5acd5b3d" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd7c1019eg14f4g3ed6g55e1gff0c5acd5b3d" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Seldarine" />
         <field name="StackId" type="StringTableFieldDefinition" value="SELDARINEDROWELF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(SELDARINEDROWELF);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -968,8 +968,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1f514325-7f26-4f17-a90f-acddd677a0bd" />
         <field name="Name" type="NameTableFieldDefinition" value="GITHYANKI_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc1c3c101g6579gbb0fg1a8ag094fb64318a2" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h67216306g5e20g5373gdcc7g928fb17572eb" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h67216306g5e20g5373gdcc7g928fb17572eb" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Githyanki" />
         <field name="StackId" type="StringTableFieldDefinition" value="GITHYANKI_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(GITHYANKI);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -981,8 +981,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3bef9de9-5d90-4980-a799-a48248abe16a" />
         <field name="Name" type="NameTableFieldDefinition" value="HUMAN_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h290316efgc1dagd7f8g0c1ag5eb5d6e15f9b" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf7227bc7gdc1dg807fge556g98fddd6444ab" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf7227bc7gdc1dg807fge556g98fddd6444ab" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Human" />
         <field name="StackId" type="StringTableFieldDefinition" value="HUMAN_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(HUMAN);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -994,8 +994,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="de387e39-cad5-4b3d-95f9-702299e96cd8" />
         <field name="Name" type="NameTableFieldDefinition" value="DWARF_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h340611d0g8581gd989g1cd6g8cdd2c89cea7" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h57cd1b1dgd197g78beg167bgc14fccbdb412" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h57cd1b1dgd197g78beg167bgc14fccbdb412" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Dwarf" />
         <field name="StackId" type="StringTableFieldDefinition" value="DWARF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(DWARF);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -1007,8 +1007,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d8618b0c-baca-44e6-9ad1-a7f048d12fd8" />
         <field name="Name" type="NameTableFieldDefinition" value="HILLDWARF_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0e5dba6agb029g2bb0g43bcg67dd0d035227" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he4aee94dg7997g6655g2136gdf4b226db4f7" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he4aee94dg7997g6655g2136gdf4b226db4f7" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_GoldHill" />
         <field name="StackId" type="StringTableFieldDefinition" value="HILLDWARF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(HILLDWARF)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -1020,8 +1020,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="41b0ef61-b7df-43f4-a666-baf0758fc237" />
         <field name="Name" type="NameTableFieldDefinition" value="MOUNTAINDWARF_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hff93fe27gf1d4gbf55ge4fag57f1e4307d1a" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb3aa23c1ga67bg1c45geddbgb0031fa016ac" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb3aa23c1ga67bg1c45geddbgb0031fa016ac" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_ShieldMountain" />
         <field name="StackId" type="StringTableFieldDefinition" value="MOUNTAINDWARF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(MOUNTAINDWARF);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -1033,8 +1033,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a1ed7a78-27d2-42f4-a2e1-8bff204e4bc3" />
         <field name="Name" type="NameTableFieldDefinition" value="DUERGARDWARF_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8652a187g3d39g6008g8515gf0e40278bf3c" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6b5ebe3fg856bg3997g5f79ga0479d1ca355" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6b5ebe3fg856bg3997g5f79ga0479d1ca355" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Duergar" />
         <field name="StackId" type="StringTableFieldDefinition" value="DUERGARDWARF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(DUERGARDWARF);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -1046,8 +1046,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a3d985a8-a347-497c-a613-501e83d98ddb" />
         <field name="Name" type="NameTableFieldDefinition" value="HALFELF_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7e03ac2age520g0cb4gc6cbge8e2f2c9926c" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfa5e1706g9cb6gd6beg4f2cgc108e918291b" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfa5e1706g9cb6gd6beg4f2cgc108e918291b" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Half-Elf" />
         <field name="StackId" type="StringTableFieldDefinition" value="HALFELF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(HALFELF);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -1059,8 +1059,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7a08382e-068f-4758-8fcb-5055d1bb9927" />
         <field name="Name" type="NameTableFieldDefinition" value="HIGHHALFELF_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h90f94422g5f8agcc6bg7a69gf6fee72e71a6" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6cd7d381g42a0g5a3dg198bgf2760d72bd2b" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6cd7d381g42a0g5a3dg198bgf2760d72bd2b" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_HighHalf-Elf" />
         <field name="StackId" type="StringTableFieldDefinition" value="HIGHHALFELF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(HIGHHALFELF);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -1072,8 +1072,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fbd582f9-5337-4d02-a04f-96702e6a4418" />
         <field name="Name" type="NameTableFieldDefinition" value="WOODHALFELF_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1d7242d4ge1f4g537dg1787gbefa1b18c0a8" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc03f3146g1f48gd191g0810g3ae5ed916f86" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc03f3146g1f48gd191g0810g3ae5ed916f86" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_WoodHalf-Elf" />
         <field name="StackId" type="StringTableFieldDefinition" value="WOODHALFELF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WOODHALFELF);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -1085,8 +1085,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f94a4440-cce0-484f-a436-3b5dcbb41b82" />
         <field name="Name" type="NameTableFieldDefinition" value="DROWHALFELF_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb3faeb46g3360g1caeg4fa0ge3f5d37ded73" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35d1d055g2655g1d89g32a6gc3574520f529" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35d1d055g2655g1d89g32a6gc3574520f529" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_DrowHalf-Elf" />
         <field name="StackId" type="StringTableFieldDefinition" value="DROWHALFELF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(DROWHALFELF);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -1098,8 +1098,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="72d6c3d9-6549-487f-b4e0-b4903e8fff38" />
         <field name="Name" type="NameTableFieldDefinition" value="HALFLING_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc7774ac8g1928g5ba4gcf08g7db33fbdaae7" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd4a6f5abg0f4fg7a46gef67g8952f5001d90" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd4a6f5abg0f4fg7a46gef67g8952f5001d90" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Halfling" />
         <field name="StackId" type="StringTableFieldDefinition" value="HALFLING_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(HALFLING);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -1111,8 +1111,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c15a9c40-90bf-47a6-a1c5-48d9d03f9c5d" />
         <field name="Name" type="NameTableFieldDefinition" value="LIGHTFOOTHALFLING_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd10903d9g40b1g1b10gfa1ag032a3828bc8a" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3a968302g543dg8916g426eg044aa56e7fa4" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3a968302g543dg8916g426eg044aa56e7fa4" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Lightfoot" />
         <field name="StackId" type="StringTableFieldDefinition" value="LIGHTFOOTHALFLING_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(LIGHTFOOTHALFLING);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -1124,8 +1124,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d342ac8a-fc31-49c4-b45d-3b3ee98c95ed" />
         <field name="Name" type="NameTableFieldDefinition" value="STOUTHALFLING_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h52570c34gfb4dgf576gfc12g67cfd1def844" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha472c971gf5eag97d3g1ddag29fe5ceefe37" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha472c971gf5eag97d3g1ddag29fe5ceefe37" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Strongheart" />
         <field name="StackId" type="StringTableFieldDefinition" value="STOUTHALFLING_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(STOUTHALFLING);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -1137,8 +1137,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0109b25a-7bad-425d-bf72-bb1b519e02a5" />
         <field name="Name" type="NameTableFieldDefinition" value="GNOME_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hef6023f4gc231gb6e1gf176gc9d3635842ed" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc503c6e3g9a66gcecfgf281gb991053811c6" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc503c6e3g9a66gcecfgf281gb991053811c6" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="RaceChange_Gnome" />
         <field name="StackId" type="StringTableFieldDefinition" value="GNOME_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(GNOME);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -1150,8 +1150,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c05cee2b-4640-4138-ba30-b3b0f783602f" />
         <field name="Name" type="NameTableFieldDefinition" value="ROCKGNOME_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd7eeb57bga3a0g6d3ag7d68g46de9b7b963d" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0726c7fcgd4a1g4418g42bdg50b8f65b2fc4" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0726c7fcgd4a1g4418g42bdg50b8f65b2fc4" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Rock" />
         <field name="StackId" type="StringTableFieldDefinition" value="ROCKGNOME_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ROCKGNOME);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -1163,8 +1163,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="81ccadb5-745c-46d4-b4d6-cb50dfe9760b" />
         <field name="Name" type="NameTableFieldDefinition" value="DEEPGNOME_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h03b16fa8g61b8gbc0ag15c5g00ae125ed77b" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h670cd9fegb772g34fag58f3g0bb800126836" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h670cd9fegb772g34fag58f3g0bb800126836" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Deep" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEEPGNOME_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(DEEPGNOME);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -1176,8 +1176,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="47294575-d9e6-40d0-b29d-f1ab642ffb95" />
         <field name="Name" type="NameTableFieldDefinition" value="FORESTGNOME_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcedf5873g559fgfa7dge5eegaf8e5194a50e" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb9843085ga365g6ebegacebgfb2b3843fdff" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb9843085ga365g6ebegacebgfb2b3843fdff" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Forest" />
         <field name="StackId" type="StringTableFieldDefinition" value="FORESTGNOME_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(FORESTGNOME);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -1189,8 +1189,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7763c5be-11d5-4008-b83f-147764d89426" />
         <field name="Name" type="NameTableFieldDefinition" value="DRAGONBORN_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2888a7b7g4789g3bbagbdb8ga0a284a95119" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h578c095bg4df6g35b0g6cedg46a07634085f" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h578c095bg4df6g35b0g6cedg46a07634085f" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Dragonborn" />
         <field name="StackId" type="StringTableFieldDefinition" value="DRAGONBORN_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(DRAGONBORN);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -1202,8 +1202,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7aeadf8c-6588-4474-b7dd-6827992e17c2" />
         <field name="Name" type="NameTableFieldDefinition" value="HALFORC_RACE_RING_TAG" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc4cd020fg9352g2ba8g6810ge6b9fadfddd9" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h01d82b44g3b4dg483egc761g2a5f2b851f13" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h01d82b44g3b4dg483egc761g2a5f2b851f13" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Half-Orc" />
         <field name="StackId" type="StringTableFieldDefinition" value="HALFORC_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(HALFORC);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />

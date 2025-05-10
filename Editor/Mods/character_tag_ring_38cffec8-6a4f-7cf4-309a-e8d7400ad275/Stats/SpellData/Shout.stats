@@ -12,7 +12,7 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0c73c9f3gc849g40afg791bg5662f4ca692a" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3d2225c3gaf46ga97ag891eg3d5d978e10a4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3d2225c3gaf46ga97ag891eg3d5d978e10a4" version="2" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_DisguiseSelf_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_DisguiseSelf_L1to3" />
@@ -36,7 +36,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(CLASS_RING_TAG_ALL,100,-1);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_PassWithoutTrace" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf2131974gf29fga109g36dfg9faa5b83eeb5" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8e424d8bge35dgf00dgb0afgd62869043f31" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8e424d8bge35dgf00dgb0afgd62869043f31" version="3" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLASS_RING_TAG_ALL,100,-1);" />
       </fields>
     </stat_object>
@@ -49,7 +49,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SUBCLASS_RING_TAG_ALL,100,-1);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_PassWithoutTrace" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7e1e8ec6gfd6bg7f93g13e4g2e2b9f0f7551" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3bbb5c04g3657g70begb79agc84b77243dcb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3bbb5c04g3657g70begb79agc84b77243dcb" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SUBCLASS_RING_TAG_ALL,100,-1);" />
       </fields>
     </stat_object>
@@ -62,7 +62,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(CLASS_RING_TAG_ALL);RemoveStatus(SUBCLASS_RING_TAG_ALL);RemoveStatus(BARBARIAN_CLASS_RING_TAG);RemoveStatus(BARD_CLASS_RING_TAG);RemoveStatus(CLERIC_CLASS_RING_TAG);RemoveStatus(DRUID_CLASS_RING_TAG);RemoveStatus(FIGHTER_CLASS_RING_TAG);RemoveStatus(MONK_CLASS_RING_TAG);RemoveStatus(PALADIN_CLASS_RING_TAG);RemoveStatus(RANGER_CLASS_RING_TAG);RemoveStatus(ROGUE_CLASS_RING_TAG);RemoveStatus(SORCERER_CLASS_RING_TAG);RemoveStatus(WARLOCK_CLASS_RING_TAG);RemoveStatus(WIZARD_CLASS_RING_TAG);RemoveStatus(BERSERKER_SUBCLASS_RING_TAG);RemoveStatus(PALADIN_ANCIENTS_SUBCLASS_RING_TAG);RemoveStatus(PALADIN_DEVOTION_SUBCLASS_RING_TAG);RemoveStatus(PALADIN_VENGEANCE_SUBCLASS_RING_TAG);RemoveStatus(PALADIN_CROWN_SUBCLASS_RING_TAG);RemoveStatus(OATHBREAKER_SUBCLASS_RING_TAG);RemoveStatus(RANGER_BEAST_MASTER_SUBCLASS_RING_TAG);RemoveStatus(RANGER_HUNTER_SUBCLASS_RING_TAG);RemoveStatus(RANGER_GLOOM_STALKER_SUBCLASS_RING_TAG);RemoveStatus(SORCERER_DRACONIC_SUBCLASS_RING_TAG);RemoveStatus(SORCERER_WILDMAGIC_SUBCLASS_RING_TAG);RemoveStatus(WARLOCK_FIEND_SUBCLASS_RING_TAG);RemoveStatus(WARLOCK_GREAT_OLD_ONE_SUBCLASS_RING_TAG);RemoveStatus(WARLOCK_ARCHFEY_SUBCLASS_RING_TAG);RemoveStatus(WARLOCK_HEXBLADE_SUBCLASS_RING_TAG);RemoveStatus(WIZARD_NECROMANCY_SUBCLASS_RING_TAG);RemoveStatus(WIZARD_BLADESINGING_SUBCLASS_RING_TAG);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Bane" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2c6e6f67g3ff1g439bg8fedg0d678ff327b1" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb99ac9e6g30d6gc0a2g979dg12ebb4a47edf" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb99ac9e6g30d6gc0a2g979dg12ebb4a47edf" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="RemoveStatus(CLASS_RING_TAG_ALL);RemoveStatus(SUBCLASS_RING_TAG_ALL);RemoveStatus(BARBARIAN_CLASS_RING_TAG);RemoveStatus(BARD_CLASS_RING_TAG);RemoveStatus(CLERIC_CLASS_RING_TAG);RemoveStatus(DRUID_CLASS_RING_TAG);RemoveStatus(FIGHTER_CLASS_RING_TAG);RemoveStatus(MONK_CLASS_RING_TAG);RemoveStatus(PALADIN_CLASS_RING_TAG);RemoveStatus(RANGER_CLASS_RING_TAG);RemoveStatus(ROGUE_CLASS_RING_TAG);RemoveStatus(SORCERER_CLASS_RING_TAG);RemoveStatus(WARLOCK_CLASS_RING_TAG);RemoveStatus(WIZARD_CLASS_RING_TAG);RemoveStatus(BERSERKER_SUBCLASS_RING_TAG);RemoveStatus(PALADIN_ANCIENTS_SUBCLASS_RING_TAG);RemoveStatus(PALADIN_DEVOTION_SUBCLASS_RING_TAG);RemoveStatus(PALADIN_VENGEANCE_SUBCLASS_RING_TAG);RemoveStatus(PALADIN_CROWN_SUBCLASS_RING_TAG);RemoveStatus(OATHBREAKER_SUBCLASS_RING_TAG);RemoveStatus(RANGER_BEAST_MASTER_SUBCLASS_RING_TAG);RemoveStatus(RANGER_HUNTER_SUBCLASS_RING_TAG);RemoveStatus(RANGER_GLOOM_STALKER_SUBCLASS_RING_TAG);RemoveStatus(SORCERER_DRACONIC_SUBCLASS_RING_TAG);RemoveStatus(SORCERER_WILDMAGIC_SUBCLASS_RING_TAG);RemoveStatus(WARLOCK_FIEND_SUBCLASS_RING_TAG);RemoveStatus(WARLOCK_GREAT_OLD_ONE_SUBCLASS_RING_TAG);RemoveStatus(WARLOCK_ARCHFEY_SUBCLASS_RING_TAG);RemoveStatus(WARLOCK_HEXBLADE_SUBCLASS_RING_TAG);RemoveStatus(WIZARD_NECROMANCY_SUBCLASS_RING_TAG);RemoveStatus(WIZARD_BLADESINGING_SUBCLASS_RING_TAG);" />
       </fields>
     </stat_object>
@@ -73,9 +73,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(BARBARIAN_CLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Barbarian" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h601c422fg2652g90eeg9f26gba85615647d8" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h31760a43gaccfg0bf1g11ecgc05bbef29250" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h31760a43gaccfg0bf1g11ecgc05bbef29250" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BARBARIAN_CLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -86,9 +86,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(BARD_CLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Bard" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfe562f4ag51e9g9f64g9e83ga0ed5656491f" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h23f8de2eg5c1dg81aag9dbeg5b978d725efb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h23f8de2eg5c1dg81aag9dbeg5b978d725efb" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BARD_CLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -99,9 +99,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(CLERIC_CLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Cleric" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h01621e01g38f8gcea8g0878g9f1b7589e373" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haba35d12g96c1g9f79gc0b3g1f9b95a73112" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haba35d12g96c1g9f79gc0b3g1f9b95a73112" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLERIC_CLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -112,9 +112,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRUID_CLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Druid" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdb3cb740g632bgbefag9c1eg2ed774c3607b" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6d8f7e8bgcdb5g1848gf075ga3023444ccc1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6d8f7e8bgcdb5g1848gf075ga3023444ccc1" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRUID_CLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -125,9 +125,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(FIGHTER_CLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Fighter" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hec6fa9d2g04d7g8307g48ccgf4c5b1b83bbf" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4e102c77g3056g3794g1f3ag975bc69a5bc8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4e102c77g3056g3794g1f3ag975bc69a5bc8" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FIGHTER_CLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -138,9 +138,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MONK_CLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Monk" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9d4fda60ga71dg8075gde6bg5906c08a3afe" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6453855cgffe9g83dcgef92gc654c0637cd3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6453855cgffe9g83dcgef92gc654c0637cd3" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MONK_CLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -151,9 +151,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(PALADIN_CLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Paladin" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h44adebf2gf6bag88a3gaf63g740ee7f4076b" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9192cd2cg96f3gf95fg88f2gc912e229c826" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9192cd2cg96f3gf95fg88f2gc912e229c826" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PALADIN_CLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -164,9 +164,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RANGER_CLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Ranger" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he8cc9617g8579g6e3cg3adcgef1b9ed34748" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h19fec409g88a5ga84bg67b8g4d2d7388ceb9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h19fec409g88a5ga84bg67b8g4d2d7388ceb9" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RANGER_CLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -177,9 +177,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ROGUE_CLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Rogue" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2bb2d8b7g5095g45a7g4f25ge01624f56e7f" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h874d2186gc2e5gf402gb813gdad6fc573eb7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h874d2186gc2e5gf402gb813gdad6fc573eb7" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ROGUE_CLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -190,9 +190,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SORCERER_CLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Sorcerer" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h864bcc82g85e9g5ae5gb763g3f1bc89b865b" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8b304969g1d97g0b2cg5cdfg995e8567eff8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8b304969g1d97g0b2cg5cdfg995e8567eff8" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SORCERER_CLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -203,9 +203,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WARLOCK_CLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Warlock" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2c1565fbge2d9g543bg5302g5daf858729b1" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h53061d49g3bf0ga53eg442ag98f27ccde536" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h53061d49g3bf0ga53eg442ag98f27ccde536" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WARLOCK_CLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -216,9 +216,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WIZARD_CLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Wizard" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h496247f0g0359g1a26g0146gad9f16262043" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hafe3eca0g3356g8e6dg1f8fg2001eff56cdd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hafe3eca0g3356g8e6dg1f8fg2001eff56cdd" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WIZARD_CLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -229,9 +229,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(BERSERKER_SUBCLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Berserker" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6581c338gc2a8gf9f4ga962g890e4f877e7a" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hafae2901gd31fg3aa7g9c82g7a4cf5a0c278" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hafae2901gd31fg3aa7g9c82g7a4cf5a0c278" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BERSERKER_SUBCLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -242,9 +242,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(PALADIN_ANCIENTS_SUBCLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Ancients" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ffe752eg42f2gda0cg912bg799d0cc837b8" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h042886f0g2c8fg90cbgc0a3gce14c44efcbd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h042886f0g2c8fg90cbgc0a3gce14c44efcbd" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PALADIN_ANCIENTS_SUBCLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -255,9 +255,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(PALADIN_DEVOTION_SUBCLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Devotion" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbe95d24ag61f6g649bg78dbgc18680021dfd" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8d5193afg180dge5a7g9e75g4de1413da39c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8d5193afg180dge5a7g9e75g4de1413da39c" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PALADIN_DEVOTION_SUBCLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -268,9 +268,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(PALADIN_VENGEANCE_SUBCLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Vengeance" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h544a9971g3e70gcbe2gc0ebg3894a33ac91d" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h39696f6aga8b6g9a35g44f1g44a05c5e454a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h39696f6aga8b6g9a35g44f1g44a05c5e454a" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PALADIN_VENGEANCE_SUBCLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -281,9 +281,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(PALADIN_CROWN_SUBCLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Crown" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8014f353g959agcf1bgdb14g016ec925c924" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h27b8b1caga393g9b6dged2bgc14f3fd2f71c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h27b8b1caga393g9b6dged2bgc14f3fd2f71c" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PALADIN_CROWN_SUBCLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -294,9 +294,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(OATHBREAKER_SUBCLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Oathbreaker" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1fbbed73g6f65g8ac5g56c6gebddf7b006e3" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5c34ab5egea1ag3c67g3f9agfd80f8849b2c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5c34ab5egea1ag3c67g3f9agfd80f8849b2c" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(OATHBREAKER_SUBCLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -307,9 +307,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RANGER_BEAST_MASTER_SUBCLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_BeastMaster" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hef491b4eg8f57g4e37gbba0gb91442a6cfa7" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he34f8086gc363g25e2g8151ga9b050139791" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he34f8086gc363g25e2g8151ga9b050139791" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RANGER_BEAST_MASTER_SUBCLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -320,9 +320,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RANGER_HUNTER_SUBCLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Hunter" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haa704694ga2dag00d8g4bbcg51c06b536228" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6e709679gfb0agcbabg8e3eg79fdfdcbf0d1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6e709679gfb0agcbabg8e3eg79fdfdcbf0d1" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RANGER_HUNTER_SUBCLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -333,9 +333,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RANGER_GLOOM_STALKER_SUBCLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_GloomStalker" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h82a03f27g1238g457cgc382g1cfc631f3409" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h74f9c7e0g7820g2bdbg4b3cgac31d225789d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h74f9c7e0g7820g2bdbg4b3cgac31d225789d" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RANGER_GLOOM_STALKER_SUBCLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -346,9 +346,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SORCERER_DRACONIC_SUBCLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_DraconicBloodline" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3025b4b5g07d3g808eg9f08gd0f636a1f7ff" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9eab416dgcc27gafabg981eg935a21927696" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9eab416dgcc27gafabg981eg935a21927696" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SORCERER_DRACONIC_SUBCLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -359,9 +359,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SORCERER_WILDMAGIC_SUBCLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_WildMagic" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heb5a9db4gc2e5g7287g20fagc5c194ca6d32" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h85143373g0a60g93b2gdb52g3285833ed445" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h85143373g0a60g93b2gdb52g3285833ed445" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SORCERER_WILDMAGIC_SUBCLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -372,9 +372,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WARLOCK_FIEND_SUBCLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Fiend" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h31f8bee5g65e9g6d64gc70dg0b122a47ecb4" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h02aaf08ag8fe6gf53dg92a0g59b0b2ad78f5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h02aaf08ag8fe6gf53dg92a0g59b0b2ad78f5" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WARLOCK_FIEND_SUBCLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -385,9 +385,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WARLOCK_GREAT_OLD_ONE_SUBCLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_GreatOldOne" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfc026168gc8cdg3d08gd776g92da2b7b9fba" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h182126c7g5a82g145egcb90g8fb2b1ecb656" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h182126c7g5a82g145egcb90g8fb2b1ecb656" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WARLOCK_GREAT_OLD_ONE_SUBCLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -398,9 +398,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WARLOCK_ARCHFEY_SUBCLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Archfey" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h567cf29eg9ab4g66fbg7721ga6ddc865b3d7" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2511ff12g8ae4g3284g4e71gf5573430b030" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2511ff12g8ae4g3284g4e71gf5573430b030" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WARLOCK_ARCHFEY_SUBCLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -411,9 +411,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WARLOCK_HEXBLADE_SUBCLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Hexblade" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h26173b49g1d70g3351g4209gb19914e207fb" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h06ab672bga023gac56gfc8bg3d3e2d5860f1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h06ab672bga023gac56gfc8bg3d3e2d5860f1" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WARLOCK_HEXBLADE_SUBCLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -424,9 +424,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WIZARD_NECROMANCY_SUBCLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Necromancy" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he30a2e12g9d1eg3450g5fbcg57f3d943513d" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdeb859acg2e38g8414g67b6gc9bd3f00f5c4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdeb859acg2e38g8414g67b6gc9bd3f00f5c4" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WIZARD_NECROMANCY_SUBCLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -437,9 +437,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89e15c66-702b-4a24-989e-8e324bc0368a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeClassTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WIZARD_BLADESINGING_SUBCLASS_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Bladesinging" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h56501c50gda89gf3ddg3504gad33c0982151" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3ba7f22dg1e66gfb01g25d1gbcbe296613e4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3ba7f22dg1e66gfb01g25d1gbcbe296613e4" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WIZARD_BLADESINGING_SUBCLASS_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -454,7 +454,7 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h54aa3556g7628ge7bbgb4a2g2949ce1bbf5f" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h92a632fbg836bgca22g7d8eg3b2697d163bd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h92a632fbg836bgca22g7d8eg3b2697d163bd" version="2" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_DisguiseSelf_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_DisguiseSelf_L1to3" />
@@ -478,7 +478,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DEITY_RING_TAG_REMOVER,100,1);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Bane" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hafc2d686g24b4gc5e2gf2a5gc9cfa298f734" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0de3eb82g0a69ga80egdbd3gfc42ee22fd56" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0de3eb82g0a69ga80egdbd3gfc42ee22fd56" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DEITY_RING_TAG_REMOVER,100,1);" />
       </fields>
     </stat_object>
@@ -489,9 +489,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(BAHAMUT_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Bahamut" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc9de03ffgd843g640dgccb9g318b26600982" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h51bbc044g340cge119gfdb5g693ff10c5942" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h51bbc044g340cge119gfdb5g693ff10c5942" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BAHAMUT_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -502,9 +502,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(BANE_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Bane" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb4560659gaabdg979dge9f9g697b0eb6ab12" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4d4993eag9b9dg7911g00dagf9fb55274596" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4d4993eag9b9dg7911g00dagf9fb55274596" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BANE_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -515,9 +515,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(BHAAL_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Bhaal" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h295c6bd4g6294g49ffgc56egfbc6d0ca0a0a" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb93999edg65cdgaa1dg9da6g2647c78f19b0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb93999edg65cdgaa1dg9da6g2647c78f19b0" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BHAAL_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -528,9 +528,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(CORELLONLARETHIAN_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Corellon" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9d95c787g96b7gd195g223fg1726ca849ae1" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3e8a329bgcc8fgf33cg2494ge0ef0d05568f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3e8a329bgcc8fgf33cg2494ge0ef0d05568f" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CORELLONLARETHIAN_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -541,9 +541,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(EILISTRAEE_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Elistrae" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heb0448a6g9bdagc2fcgf301gebf467cc182e" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ad38fa5g511fg7383g9fadgb8daf8a7bc67" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ad38fa5g511fg7383g9fadgb8daf8a7bc67" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(EILISTRAEE_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -554,9 +554,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(GARLGLITTERGOLD_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Garl" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3f09a36dg1190g5f4fgc3d6g9d9afc1a177f" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd6ac915bg8f95g8784g9de3gb61b17a4a00a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd6ac915bg8f95g8784g9de3gb61b17a4a00a" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(GARLGLITTERGOLD_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -567,9 +567,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(GRUUMSH_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Gruumsh" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0a15407bgb654g8c5cga014g5b697afd39af" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8ed0675agbe19ga9e7g62d9g565ae4504e80" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8ed0675agbe19ga9e7g62d9g565ae4504e80" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(GRUUMSH_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -580,9 +580,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(HELM_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Helm" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h86c03df5g962cg0292g4875g98d95ad53e6c" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h77cfdd32gab94ga9acg7698gb29b4c53d61e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h77cfdd32gab94ga9acg7698gb29b4c53d61e" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HELM_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -593,9 +593,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ILMATER_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Ilmater" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1f30b33eg755bgbc49g0f5dg9e2ac0eceba9" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1240bc28gee3cgad1bg5c34g6019969fdf20" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1240bc28gee3cgad1bg5c34g6019969fdf20" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ILMATER_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -606,9 +606,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(KELEMVOR_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Kelemvor" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7358aea5g0d07g2486g11b7g7faee87f0d0d" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbef5440cg1ca2ge473gdccdg4ee0f15fb873" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbef5440cg1ca2ge473gdccdg4ee0f15fb873" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(KELEMVOR_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -619,9 +619,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(LADUGUER_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Laduguer" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he42e1547g425dg2776gdbeag754e5e08c3c2" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfb158ff6gd2ffg05dfg8ae9g5370343fb0ef" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfb158ff6gd2ffg05dfg8ae9g5370343fb0ef" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(LADUGUER_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -632,9 +632,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(LATHANDER_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Lathandar" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h66c332deg7161g8a04gd5adg8980088a5e38" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0cab9832gaa77g8ce2gadffgcb93bb3b360e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0cab9832gaa77g8ce2gadffgcb93bb3b360e" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(LATHANDER_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -645,9 +645,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(LOLTH_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Lolth" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7ec7c5ddgc824g6e83g9088g85a7bdc6cf2a" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h48dbbccfg1407gec09g87ffg7ff03fc221f5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h48dbbccfg1407gec09g87ffg7ff03fc221f5" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(LOLTH_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -658,9 +658,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MIELIKKI_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Mielikki" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h149e3ce8g1664gb6a5gbd89g3854f9d9995e" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h796dcbceg9255g7befga0afgf5c08e05ce48" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h796dcbceg9255g7befga0afgf5c08e05ce48" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MIELIKKI_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -671,9 +671,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MORADIN_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Moradin" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3e9dea53g9a51g74d1gb32eg979cdea36543" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d36d7cbg3485ge5a1g135fg19d2af169ef8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d36d7cbg3485ge5a1g135fg19d2af169ef8" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MORADIN_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -684,9 +684,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MYRKUL_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Myrkul" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd24e330bgb3e1gbc80g35c9gbee822dffc2c" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4ed3d291g451dg318bgdb36gcdb6482f6d7c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4ed3d291g451dg318bgdb36gcdb6482f6d7c" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MYRKUL_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -697,9 +697,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MYSTRA_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Mystra" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h670d19d6g4be9g5e0fg8ffbgfba0e23458a0" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7b6bce73g8ac8geb42ge056g77bc2f765056" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7b6bce73g8ac8geb42ge056g77bc2f765056" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MYSTRA_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -710,9 +710,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(OGHMA_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Oghma" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h52f64ba6gb923g10fdgac16g52137eaf3340" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2893c42dgc2feg9d68g5f20gfcadb7c98482" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2893c42dgc2feg9d68g5f20gfcadb7c98482" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(OGHMA_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -723,9 +723,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELUNE_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Selune" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h644152ddg39c8gca68g67cdg1d671c42e5c2" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h628ed065gf0e8g5d1aga7caga82bb9d03526" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h628ed065gf0e8g5d1aga7caga82bb9d03526" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SELUNE_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -736,9 +736,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SHAR_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Shar" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h278e33a5g19e8g84e6ge12bg9d068187e715" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4df2fc46g69fdg90e1g96b9g86c44da8a82c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4df2fc46g69fdg90e1g96b9g86c44da8a82c" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SHAR_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -749,9 +749,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(TALOS_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Talos" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he1dd871cg3a37ga51agdb46gc41c8e2fd3d4" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9ac1505bg3009g1a73g23fbgafcdaec4c4e0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9ac1505bg3009g1a73g23fbgafcdaec4c4e0" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(TALOS_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -762,9 +762,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(TEMPUS_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Tempus" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5c4cc7f7g01e0g649eg0e11g83855a0defb8" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hac43db22g78dbg3eabg1de6g93b584f5d1b9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hac43db22g78dbg3eabg1de6g93b584f5d1b9" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(TEMPUS_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -775,9 +775,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(TIAMAT_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Tiamat" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1f754e37g3400gde9dg3981gec5ed55bf71b" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2580a077g5f2agb28dg960cg4b3f994c7fee" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2580a077g5f2agb28dg960cg4b3f994c7fee" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(TIAMAT_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -788,9 +788,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(TYMORA_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Tymora" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hed5afab6gce69g8274g08aagc05b25ee0681" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc777e224g1099gd8e6g459ag79e74f5294f5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc777e224g1099gd8e6g459ag79e74f5294f5" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(TYMORA_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -801,9 +801,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(TYR_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Tyr" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h58c5b4cfge48ag2e1dg087fgc96cf7490f27" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6420cf70gdb43g4984g32a6gf24bcfaf103c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6420cf70gdb43g4984g32a6gf24bcfaf103c" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(TYR_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -814,9 +814,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(VLAAKITH_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Vlaakith" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfa9cecf4gd6abgc7edg9bb3g230fd5930dd9" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd3f1b373g2e1eg16b3g6b75g91199b70b685" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd3f1b373g2e1eg16b3g6b75g91199b70b685" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(VLAAKITH_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -827,9 +827,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f8c48b6-dbcd-45cc-bec5-4df089d9daf9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeDeityTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(YONDALLA_DEITY_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_FleshToGold" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Yondolla" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6c5db192g596cgecc5g9cc6g634dde9846e8" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9f4ec776gdf4age1edgca79g395feb716ce7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9f4ec776gdf4age1edgca79g395feb716ce7" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(YONDALLA_DEITY_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -844,7 +844,7 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc2487145g87c6gae8fgc220gb403d5b86734" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3e9aedf7g3063gb057gb3bbgf61206ab3ecb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3e9aedf7g3063gb057gb3bbgf61206ab3ecb" version="2" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_DisguiseSelf_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_DisguiseSelf_L1to3" />
@@ -868,7 +868,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RACE_RING_TAG_ALL,100,-1);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Monster_Slayer_RelentlessLunge" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd6f4d61fge9f4g62d2gd1afgc2ee77aecdac" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6ab64491g0c18g82b3g6b5fg9c8a18327dbe" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6ab64491g0c18g82b3g6b5fg9c8a18327dbe" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RACE_RING_TAG_ALL,100,-1);" />
       </fields>
     </stat_object>
@@ -881,7 +881,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(RACE_RING_TAG_ALL);RemoveStatus(ELF_RACE_RING_TAG);RemoveStatus(HIGHELF_RACE_RING_TAG);RemoveStatus(WOODELF_RACE_RING_TAG);RemoveStatus(TIEFLING_RACE_RING_TAG);RemoveStatus(ASMODEUSTIEFLING_RACE_RING_TAG);RemoveStatus(MEPHISTOPHELESTIEFLING_RACE_RING_TAG);RemoveStatus(ZARIELTIEFLING_RACE_RING_TAG);RemoveStatus(DROWELF_RACE_RING_TAG);RemoveStatus(LOLTHDROWELF_RACE_RING_TAG);RemoveStatus(SELDARINEDROWELF_RACE_RING_TAG);RemoveStatus(GITHYANKI_RACE_RING_TAG);RemoveStatus(HUMAN_RACE_RING_TAG);RemoveStatus(DWARF_RACE_RING_TAG);RemoveStatus(HILLDWARF_RACE_RING_TAG);RemoveStatus(MOUNTAINDWARF_RACE_RING_TAG);RemoveStatus(DUERGARDWARF_RACE_RING_TAG);RemoveStatus(HALFELF_RACE_RING_TAG);RemoveStatus(HIGHHALFELF_RACE_RING_TAG);RemoveStatus(WOODHALFELF_RACE_RING_TAG);RemoveStatus(DROWHALFELF_RACE_RING_TAG);RemoveStatus(HALFLING_RACE_RING_TAG);RemoveStatus(LIGHTFOOTHALFLING_RACE_RING_TAG);RemoveStatus(STOUTHALFLING_RACE_RING_TAG);RemoveStatus(GNOME_RACE_RING_TAG);RemoveStatus(ROCKGNOME_RACE_RING_TAG);RemoveStatus(DEEPGNOME_RACE_RING_TAG);RemoveStatus(FORESTGNOME_RACE_RING_TAG);RemoveStatus(DRAGONBORN_RACE_RING_TAG);RemoveStatus(HALFORC_RACE_RING_TAG);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Bane" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3b1f07b6gcd44g200aga570g3e0675508498" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb1fea5ecgc34dg29d2g9d18g16b4409275ec" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb1fea5ecgc34dg29d2g9d18g16b4409275ec" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="RemoveStatus(RACE_RING_TAG_ALL);RemoveStatus(ELF_RACE_RING_TAG);RemoveStatus(HIGHELF_RACE_RING_TAG);RemoveStatus(WOODELF_RACE_RING_TAG);RemoveStatus(TIEFLING_RACE_RING_TAG);RemoveStatus(ASMODEUSTIEFLING_RACE_RING_TAG);RemoveStatus(MEPHISTOPHELESTIEFLING_RACE_RING_TAG);RemoveStatus(ZARIELTIEFLING_RACE_RING_TAG);RemoveStatus(DROWELF_RACE_RING_TAG);RemoveStatus(LOLTHDROWELF_RACE_RING_TAG);RemoveStatus(SELDARINEDROWELF_RACE_RING_TAG);RemoveStatus(GITHYANKI_RACE_RING_TAG);RemoveStatus(HUMAN_RACE_RING_TAG);RemoveStatus(DWARF_RACE_RING_TAG);RemoveStatus(HILLDWARF_RACE_RING_TAG);RemoveStatus(MOUNTAINDWARF_RACE_RING_TAG);RemoveStatus(DUERGARDWARF_RACE_RING_TAG);RemoveStatus(HALFELF_RACE_RING_TAG);RemoveStatus(HIGHHALFELF_RACE_RING_TAG);RemoveStatus(WOODHALFELF_RACE_RING_TAG);RemoveStatus(DROWHALFELF_RACE_RING_TAG);RemoveStatus(HALFLING_RACE_RING_TAG);RemoveStatus(LIGHTFOOTHALFLING_RACE_RING_TAG);RemoveStatus(STOUTHALFLING_RACE_RING_TAG);RemoveStatus(GNOME_RACE_RING_TAG);RemoveStatus(ROCKGNOME_RACE_RING_TAG);RemoveStatus(DEEPGNOME_RACE_RING_TAG);RemoveStatus(FORESTGNOME_RACE_RING_TAG);RemoveStatus(DRAGONBORN_RACE_RING_TAG);RemoveStatus(HALFORC_RACE_RING_TAG);" />
       </fields>
     </stat_object>
@@ -892,9 +892,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ELF_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Elf" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h76815d16gbdccga642gc8c8g08fc23c5b722" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h02df2ccbg2f06gf24cg6b65g7703bcb6d7bb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h02df2ccbg2f06gf24cg6b65g7703bcb6d7bb" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ELF_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -905,9 +905,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(HIGHELF_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_HighElf" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h337b148agb004gaa8bg9f4eg3ced2ed1c349" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfdb01283g6c7bg7ef5g5cf1ge2c0e6a06765" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfdb01283g6c7bg7ef5g5cf1ge2c0e6a06765" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HIGHELF_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -918,9 +918,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WOODELF_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_WoodElf" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f882c65g9048g6dbbg6ae6gbba306dbb51b" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h278edbb8g3d1dg05fcgfe06g7e12ded0f281" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h278edbb8g3d1dg05fcgfe06g7e12ded0f281" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WOODELF_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -931,9 +931,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(TIEFLING_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Tiefling" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc22ab2fdg2308gf5dag6b06g75af491e76bb" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9a64b690gf1adga428g1b92g1acbda74b55b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9a64b690gf1adga428g1b92g1acbda74b55b" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(TIEFLING_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -944,9 +944,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ASMODEUSTIEFLING_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Asmodeus" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heb98756cgbc44g3bb3gf818g41d71d8ca2a3" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5c8dda4cge1d4g6f58g2d6fg353e5f0330ec" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5c8dda4cge1d4g6f58g2d6fg353e5f0330ec" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ASMODEUSTIEFLING_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -957,9 +957,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MEPHISTOPHELESTIEFLING_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Mephistopeles" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb9355b40g242bg2539gff0fg47b709d9c899" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha4dc12b2g2309g47ffgb3d8gce7c0cd76749" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha4dc12b2g2309g47ffgb3d8gce7c0cd76749" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MEPHISTOPHELESTIEFLING_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -970,9 +970,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ZARIELTIEFLING_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Zariel" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbd389b83gf5dbg2112gab12gf668e3a00a1a" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h960ee27bgae5fgf0d2g9bd5g8cb5a00c0c46" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h960ee27bgae5fgf0d2g9bd5g8cb5a00c0c46" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ZARIELTIEFLING_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -983,9 +983,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DROWELF_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Drow" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha1738d65g712agf315g2c9dg8811079aad24" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5ea0fcaag05b1g0896g53c5gf47faf0d66be" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5ea0fcaag05b1g0896g53c5gf47faf0d66be" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DROWELF_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -996,9 +996,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(LOLTHDROWELF_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_LolthSworn" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf2fdeb98g9d0eg0383g053dg80342c5ab253" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hef02dc54g120fgd08eg8a43g970dca9a692b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hef02dc54g120fgd08eg8a43g970dca9a692b" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(LOLTHDROWELF_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1009,9 +1009,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELDARINEDROWELF_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Seldarine" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha1713fffg5a9fg940fga1f9g6a3e494dd3d9" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbd977d77g104ag41b5ga017gecf6cf39f50e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbd977d77g104ag41b5ga017gecf6cf39f50e" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SELDARINEDROWELF_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1022,9 +1022,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(GITHYANKI_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Githyanki" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf77c566gc528g971cg3f99gf752bb373142" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc987de9cg6d87gec1eg2383g2d9283b9b259" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc987de9cg6d87gec1eg2383g2d9283b9b259" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(GITHYANKI_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1035,9 +1035,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(HUMAN_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Human" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd94f2d51gf86eg5823gdd71g08a1799a917c" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4c4f1bb7gd980g8fcbg91b2g0d3c003bf5ae" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4c4f1bb7gd980g8fcbg91b2g0d3c003bf5ae" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HUMAN_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1048,9 +1048,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DWARF_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Dwarf" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha6640a8dg1856g39b7g23f6g004c21becbe3" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h54a35ea9g3bdag34c4ged13g0e4a35673c37" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h54a35ea9g3bdag34c4ged13g0e4a35673c37" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DWARF_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1061,9 +1061,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(HILLDWARF_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_GoldHill" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8f0914c4g9ff4g3beagd425ge47ec05e108f" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd03124f6g1829g2d3agf268gf3e6afe4d090" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd03124f6g1829g2d3agf268gf3e6afe4d090" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HILLDWARF_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1074,9 +1074,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MOUNTAINDWARF_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_ShieldMountain" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4291fadcg87bfg577ag0835gfc695e3fc926" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h82c87b4bg5f2bg9985g440bgf97ffe611860" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h82c87b4bg5f2bg9985g440bgf97ffe611860" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MOUNTAINDWARF_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1087,9 +1087,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DUERGARDWARF_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Duergar" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdc2b01f0gc5f4g7766ge7eag2ad77b8fef4a" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he6672b61geaeagee0eg3b7bgdaf2a0b14cdb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he6672b61geaeagee0eg3b7bgdaf2a0b14cdb" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DUERGARDWARF_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1100,9 +1100,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(HALFELF_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Half-Elf" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2a4002e6g8fe0ge6fbga9f7ge66ec726590a" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h79bff8e4g1b8cg097cge51bgc32d5813bf36" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h79bff8e4g1b8cg097cge51bgc32d5813bf36" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HALFELF_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1113,9 +1113,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(HIGHHALFELF_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_HighHalf-Elf" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h99689679g60bbg1dc7geeadg366522f90e59" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf6c746c5g9e7ege49dgf207gf2c40272f4b5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf6c746c5g9e7ege49dgf207gf2c40272f4b5" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HIGHHALFELF_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1126,9 +1126,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WOODHALFELF_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_WoodHalf-Elf" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h105b8447g479dg5079g7032gb70d86b61b8d" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb0e5733egf238g66b2gf145g8e2d32100c27" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb0e5733egf238g66b2gf145g8e2d32100c27" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WOODHALFELF_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1139,9 +1139,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DROWHALFELF_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_DrowHalf-Elf" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf0f67186g02f9ge013gca83gf457cb7351bf" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h39faff61g424cgb68fgafdeg20371c551875" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h39faff61g424cgb68fgafdeg20371c551875" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DROWHALFELF_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1152,9 +1152,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(HALFLING_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Halfling" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7e670d1bg0b1dg9aa3gc079g304184a0cad0" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf377a826ge960g63b0ga777gf091cac9e811" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf377a826ge960g63b0ga777gf091cac9e811" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HALFLING_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1165,9 +1165,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(LIGHTFOOTHALFLING_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Lightfoot" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7263250dgf4d6g0adag03e4g4f23e6d7f3be" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd8245529g3aeege0cdgb2a4geb62cbbc9c36" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd8245529g3aeege0cdgb2a4geb62cbbc9c36" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(LIGHTFOOTHALFLING_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1178,9 +1178,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(STOUTHALFLING_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Strongheart" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3f75e9abg399eg1da3g0d4ag915ad0e96fab" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h914729adg798ag474age9e4g27786116a0c7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h914729adg798ag474age9e4g27786116a0c7" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(STOUTHALFLING_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1191,9 +1191,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(GNOME_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="RaceChange_Gnome" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h650c5a1ag39b6gd76fg1debg441d68d85824" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7851c18fgf8acgdc32g00deg1940d59d7a01" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7851c18fgf8acgdc32g00deg1940d59d7a01" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(GNOME_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1204,9 +1204,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ROCKGNOME_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Rock" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha34212c9gdbdbgb4eagbbf1g546b2f1b1b35" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he3e4ae59gc4f9g7bffgac65g0e8ff288b1c1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he3e4ae59gc4f9g7bffgac65g0e8ff288b1c1" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ROCKGNOME_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1217,9 +1217,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DEEPGNOME_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Deep" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb0db8d94g0208gdd0bgf9ebg42101aef3d1c" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha6136c9bg19e7gaee0g606ag3fe30270dfaa" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha6136c9bg19e7gaee0g606ag3fe30270dfaa" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DEEPGNOME_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1230,9 +1230,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(FORESTGNOME_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Forest" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h51834e52g6a57gb32bg3951ge8705f0cebe0" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h29c9ad53g35ddgde0fgacaag39672df0e72c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h29c9ad53g35ddgde0fgacaag39672df0e72c" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FORESTGNOME_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1243,9 +1243,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONBORN_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Dragonborn" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf9280aeag9f91gb331gda2ag393c352d849c" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0ee3c2c6gc65cgcc43g8e60g68c2cab2b51c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0ee3c2c6gc65cgcc43g8e60g68c2cab2b51c" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONBORN_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1256,9 +1256,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e345c54f-e3a4-4632-9252-76e63e989555" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeRaceTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(HALFORC_RACE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Summon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Half-Orc" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5a0749ebgaa0dg9351g0619g62c12dd7e456" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha2881d99gf198g9385g02b2g7ec88ebcd4a3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha2881d99gf198g9385g02b2g7ec88ebcd4a3" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HALFORC_RACE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1273,7 +1273,7 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he5795db2g0d24g715ag9996g8a05716fa1ba" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6b652613gd949g88fbg163ega8cc1890d18e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6b652613gd949g88fbg163ega8cc1890d18e" version="2" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_DisguiseSelf_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_DisguiseSelf_L1to3" />
@@ -1297,7 +1297,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BALDURIAN_RING_TAG);RemoveStatus(UNDERDARK_RING_TAG);RemoveStatus(SHORT_RING_TAG);RemoveStatus(RARE_RING_TAG);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Bane" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf67c0cefg3859g4520g52acg9c3fb7302000" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b35332dgd79eg8358g3730gb91a44dc5b77" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b35332dgd79eg8358g3730gb91a44dc5b77" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="RemoveStatus(BALDURIAN_RING_TAG);RemoveStatus(UNDERDARK_RING_TAG);RemoveStatus(SHORT_RING_TAG);RemoveStatus(RARE_RING_TAG);" />
       </fields>
     </stat_object>
@@ -1308,9 +1308,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="40a3d06c-840e-48e2-8655-7d2b7a0a4f8e" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeOtherTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(BALDURIAN_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Bless" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_Baldurian" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1a672c22g7d08g0afcgc6a3g24a329dc7143" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hec569e78g59a0g5f13ge019g85f5160c9db6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hec569e78g59a0g5f13ge019g85f5160c9db6" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BALDURIAN_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1321,9 +1321,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="40a3d06c-840e-48e2-8655-7d2b7a0a4f8e" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeOtherTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(UNDERDARK_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Bless" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_Underdark" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hff2e368eg8964g3699g8ed2gbc2715c12750" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b16fbaeg8546g522eg9593g013124831010" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b16fbaeg8546g522eg9593g013124831010" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(UNDERDARK_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1334,9 +1334,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="40a3d06c-840e-48e2-8655-7d2b7a0a4f8e" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeOtherTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SHORT_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Bless" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_Short" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1d941efdg858fgf03dg0cd8g40c5442dd3fd" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h847e9976g8dfbg8d99g138ag8e052ed0fbcd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h847e9976g8dfbg8d99g138ag8e052ed0fbcd" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SHORT_RING_TAG,100,-1);" />
       </fields>
     </stat_object>
@@ -1347,9 +1347,9 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="40a3d06c-840e-48e2-8655-7d2b7a0a4f8e" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeOtherTags" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RARE_RING_TAG,100,-1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Bless" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_Rare" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7cc7ccbdg865bg0b3bgd01dge28691705542" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc76f8a6bg1745g0afcg3c11g0122db9148e7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc76f8a6bg1745g0afcg3c11g0122db9148e7" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RARE_RING_TAG,100,-1);" />
       </fields>
     </stat_object>

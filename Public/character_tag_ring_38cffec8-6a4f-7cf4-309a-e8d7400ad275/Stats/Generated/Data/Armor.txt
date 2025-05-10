@@ -2,6 +2,7 @@ new entry "MAG_Ring_Character_Tag_Ring"
 type "Armor"
 using "_Ring_Magic"
 data "RootTemplate" "db97ebba-58c8-4a29-8c28-cdcb1d211cb2"
+data "ValueOverride" "1"
 data "Rarity" "Legendary"
 data "Boosts" "UnlockSpell(Shout_ChangeClassTags);UnlockSpell(Shout_ChangeDeityTags);UnlockSpell(Shout_ChangeRaceTags);UnlockSpell(Shout_ChangeOtherTags)"
 

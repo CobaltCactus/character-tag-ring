@@ -334,7 +334,7 @@
                     <attribute id="V2" type="float" value="0.18701172"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="ChangeDeity_Mystral"/>
+                    <attribute id="MapKey" type="FixedString" value="ChangeDeity_Mystra"/>
                     <attribute id="U1" type="float" value="0.93798828"/>
                     <attribute id="U2" type="float" value="0.99951172"/>
                     <attribute id="V1" type="float" value="0.12548828"/>
@@ -416,6 +416,13 @@
                     <attribute id="U2" type="float" value="0.68701172"/>
                     <attribute id="V1" type="float" value="0.18798828"/>
                     <attribute id="V2" type="float" value="0.24951172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="ChangeOther_Baldurian"/>
+                    <attribute id="U1" type="float" value="0.75048828"/>
+                    <attribute id="U2" type="float" value="0.81201172"/>
+                    <attribute id="V1" type="float" value="0.31298828"/>
+                    <attribute id="V2" type="float" value="0.37451172"/>
                 </node>
                 <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="ChangeOther_Rare"/>

@@ -9,6 +9,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="db97ebba-58c8-4a29-8c28-cdcb1d211cb2" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ChangeClassTags);UnlockSpell(Shout_ChangeDeityTags);UnlockSpell(Shout_ChangeRaceTags);UnlockSpell(Shout_ChangeOtherTags)" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
   </stat_objects>
