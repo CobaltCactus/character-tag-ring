@@ -12,10 +12,10 @@
   <content contentuid="ha0b17e87gc7b9g1708g116cg859d9745a1a7" version="2">Add all RACE tags.</content>
   <content contentuid="h33020cb6g8064gafb8ge162g152648937c9d" version="1">Underdark</content>
   <content contentuid="h42da2f6ag96c9g9635g2f6dg10d63199682e" version="3">Add the UNDERDARK tag.</content>
-  <content contentuid="h15e99596geea2g4880g5fd0ga90c4117d7e2" version="2">Short (hidden)</content>
-  <content contentuid="h2a1e2676g37b0ga251g4031g1832a5d6b7f9" version="3">Add the SHORT tag.</content>
-  <content contentuid="he234ce7ag2641g0698g465eg4599a8a5832e" version="2">Rare (hidden)</content>
-  <content contentuid="h9f04dffdg6435ga4aaga824g21c20473ae7a" version="3">Add the RARE tag.</content>
+  <content contentuid="h15e99596geea2g4880g5fd0ga90c4117d7e2" version="3">Short</content>
+  <content contentuid="h2a1e2676g37b0ga251g4031g1832a5d6b7f9" version="4">Add the SHORT tag. *Hidden on character sheet.</content>
+  <content contentuid="he234ce7ag2641g0698g465eg4599a8a5832e" version="3">Rare</content>
+  <content contentuid="h9f04dffdg6435ga4aaga824g21c20473ae7a" version="4">Add the RARE tag. *Hidden on character sheet.</content>
   <content contentuid="h9f98b5c2g886fg8efage680g01b9d53401e0" version="1">Bard</content>
   <content contentuid="h4e777bebg62a9gd348g464bg1b95b2b02d3f" version="2">Add this tag.</content>
   <content contentuid="hb94d678eg81e6gce25gc46dg8ffd73f4172e" version="1">Remove Diety</content>
@@ -52,15 +52,15 @@
   <content contentuid="hdc5e212eg1561gd9f0ge0f7gbed647a5b69b" version="2">Add this tag.</content>
   <content contentuid="hb1d2f645g130dgb95fg0f88gf126ddd25f41" version="1">Oathbreaker</content>
   <content contentuid="h93dc0331gd93bg6730gf1f0g3e23543955ef" version="2">Add this tag.</content>
-  <content contentuid="hbd999c52gc205g0a5dgde8fg5bb9abf2c803" version="1">Beast Master (hidden)</content>
+  <content contentuid="hbd999c52gc205g0a5dgde8fg5bb9abf2c803" version="2">Beast Master</content>
   <content contentuid="hcaf7f91bgbdcbg5d03gaee8ga47b18214176" version="3">Add this tag.</content>
-  <content contentuid="h107de70fg659cg07bdgf95cgb03787f84ccd" version="1">Hunter (hidden)</content>
+  <content contentuid="h107de70fg659cg07bdgf95cgb03787f84ccd" version="2">Hunter</content>
   <content contentuid="he7f0f536g9f96g4efdg6ac1ga497474edcff" version="3">Add this tag.</content>
-  <content contentuid="h9ace571cgadc8gfadag2cfdg626d3adec170" version="1">Gloom Stalker (hidden)</content>
+  <content contentuid="h9ace571cgadc8gfadag2cfdg626d3adec170" version="2">Gloom Stalker</content>
   <content contentuid="hd38c1ccfge932ga2d1gcd2dg37653d8f4012" version="3">Add this tag.</content>
-  <content contentuid="hcb5106f8g66c8gedd3gf700g4055b664bad1" version="1">Draconic Bloodline (hidden)</content>
+  <content contentuid="hcb5106f8g66c8gedd3gf700g4055b664bad1" version="2">Draconic Bloodline</content>
   <content contentuid="h10a18675gee85gfdfeg731eg64fe7c67c532" version="3">Add this tag.</content>
-  <content contentuid="h4e65e2cag02fag7f6bga101g1adadf55b2a4" version="1">Wild Magic (hidden)</content>
+  <content contentuid="h4e65e2cag02fag7f6bga101g1adadf55b2a4" version="2">Wild Magic</content>
   <content contentuid="hd1f71587g396eg70ecgd355g055f579e473e" version="3">Add this tag.</content>
   <content contentuid="hf36365b5g5131gc70dg8ef1gbe3a503352dc" version="1">The Fiend</content>
   <content contentuid="heb4fc790g394dg0371g36a0gc385ee05697d" version="2">Add this tag.</content>
@@ -68,7 +68,7 @@
   <content contentuid="h14f8101dga9ecg91d2g7405gd832ea031fa9" version="2">Add this tag.</content>
   <content contentuid="hc308319dgce34g4170gee63g6ee423ce805c" version="1">The Archfey</content>
   <content contentuid="h248ad4dag5a19g86d9gd56cgcbf92502123a" version="2">Add this tag.</content>
-  <content contentuid="h3c06a37dgb40agc330g38f1ga93ba4d8b45c" version="1">Necromant (hidden)</content>
+  <content contentuid="h3c06a37dgb40agc330g38f1ga93ba4d8b45c" version="2">Necromant</content>
   <content contentuid="heff97471g6c91ga8adgcbf0g963adb9185c4" version="3">Add this tag.</content>
   <content contentuid="h458d37bcga77bgec6agfd5cg6e718d174561" version="1">Bahamut</content>
   <content contentuid="h6a1ce261gf96fgb91cgbed3g632445afcafe" version="2">Follow this deity.</content>
@@ -224,15 +224,15 @@
   <content contentuid="h39696f6aga8b6g9a35g44f1g44a05c5e454a" version="2">Add this tag.</content>
   <content contentuid="h1fbbed73g6f65g8ac5g56c6gebddf7b006e3" version="1">Oathbreaker</content>
   <content contentuid="h5c34ab5egea1ag3c67g3f9agfd80f8849b2c" version="2">Add this tag.</content>
-  <content contentuid="hef491b4eg8f57g4e37gbba0gb91442a6cfa7" version="1">Beast Master (hidden)</content>
+  <content contentuid="hef491b4eg8f57g4e37gbba0gb91442a6cfa7" version="2">Beast Master</content>
   <content contentuid="he34f8086gc363g25e2g8151ga9b050139791" version="2">Add this tag.</content>
-  <content contentuid="haa704694ga2dag00d8g4bbcg51c06b536228" version="1">Hunter (hidden)</content>
+  <content contentuid="haa704694ga2dag00d8g4bbcg51c06b536228" version="2">Hunter</content>
   <content contentuid="h6e709679gfb0agcbabg8e3eg79fdfdcbf0d1" version="2">Add this tag.</content>
-  <content contentuid="h82a03f27g1238g457cgc382g1cfc631f3409" version="1">Gloom Stalker (hidden)</content>
+  <content contentuid="h82a03f27g1238g457cgc382g1cfc631f3409" version="2">Gloom Stalker</content>
   <content contentuid="h74f9c7e0g7820g2bdbg4b3cgac31d225789d" version="2">Add this tag.</content>
-  <content contentuid="h3025b4b5g07d3g808eg9f08gd0f636a1f7ff" version="1">Draconic Bloodline (hidden)</content>
+  <content contentuid="h3025b4b5g07d3g808eg9f08gd0f636a1f7ff" version="2">Draconic Bloodline</content>
   <content contentuid="h9eab416dgcc27gafabg981eg935a21927696" version="2">Add this tag.</content>
-  <content contentuid="heb5a9db4gc2e5g7287g20fagc5c194ca6d32" version="1">Wild Magic (hidden)</content>
+  <content contentuid="heb5a9db4gc2e5g7287g20fagc5c194ca6d32" version="2">Wild Magic</content>
   <content contentuid="h85143373g0a60g93b2gdb52g3285833ed445" version="2">Add this tag.</content>
   <content contentuid="h31f8bee5g65e9g6d64gc70dg0b122a47ecb4" version="1">The Fiend</content>
   <content contentuid="h02aaf08ag8fe6gf53dg92a0g59b0b2ad78f5" version="2">Add this tag.</content>
@@ -240,7 +240,7 @@
   <content contentuid="h182126c7g5a82g145egcb90g8fb2b1ecb656" version="2">Add this tag.</content>
   <content contentuid="h567cf29eg9ab4g66fbg7721ga6ddc865b3d7" version="1">The Archfey</content>
   <content contentuid="h2511ff12g8ae4g3284g4e71gf5573430b030" version="2">Add this tag.</content>
-  <content contentuid="he30a2e12g9d1eg3450g5fbcg57f3d943513d" version="1">Necromant (hidden)</content>
+  <content contentuid="he30a2e12g9d1eg3450g5fbcg57f3d943513d" version="2">Necromant</content>
   <content contentuid="hdeb859acg2e38g8414g67b6gc9bd3f00f5c4" version="2">Add this tag.</content>
   <content contentuid="hafc2d686g24b4gc5e2gf2a5gc9cfa298f734" version="1">Remove Deities</content>
   <content contentuid="h0de3eb82g0a69ga80egdbd3gfc42ee22fd56" version="2">Hide your Paladin  and Cleric tags for 1 turn (Needed to avoid some problems).</content>
@@ -372,12 +372,12 @@
   <content contentuid="hec569e78g59a0g5f13ge019g85f5160c9db6" version="2">Add the BALDURIAN tag.</content>
   <content contentuid="hff2e368eg8964g3699g8ed2gbc2715c12750" version="1">Underdark</content>
   <content contentuid="h4b16fbaeg8546g522eg9593g013124831010" version="2">Add the UNDERDARK tag.</content>
-  <content contentuid="h1d941efdg858fgf03dg0cd8g40c5442dd3fd" version="1">Short (hidden)</content>
-  <content contentuid="h847e9976g8dfbg8d99g138ag8e052ed0fbcd" version="2">Add the SHORT tag.</content>
-  <content contentuid="h7cc7ccbdg865bg0b3bgd01dge28691705542" version="1">Rare (hidden)</content>
-  <content contentuid="hc76f8a6bg1745g0afcg3c11g0122db9148e7" version="2">Add the RARE tag.</content>
-  <content contentuid="h9e32e9e2g3eb0g030bg8a08gcc37ec46cbb3" version="3">Character Tag Ring</content>
-  <content contentuid="haa3f5c50g1b82gd362gc378g807ae180df5a" version="3">This magical ring allows you to manipulate your character's attribute tags.</content>
+  <content contentuid="h1d941efdg858fgf03dg0cd8g40c5442dd3fd" version="2">Short</content>
+  <content contentuid="h847e9976g8dfbg8d99g138ag8e052ed0fbcd" version="3">Add the SHORT tag. (Hidden on character sheet).</content>
+  <content contentuid="h7cc7ccbdg865bg0b3bgd01dge28691705542" version="2">Rare</content>
+  <content contentuid="hc76f8a6bg1745g0afcg3c11g0122db9148e7" version="3">Add the RARE tag.  (Hidden on character sheet).</content>
+  <content contentuid="h9e32e9e2g3eb0g030bg8a08gcc37ec46cbb3" version="4">Character Tag Ring</content>
+  <content contentuid="haa3f5c50g1b82gd362gc378g807ae180df5a" version="4">This magical ring allows you to manipulate your character's attribute tags.</content>
   <content contentuid="h265ab748gec12ga1dfg5ed5g9e2320525f69" version="1">Oath of the Crown</content>
   <content contentuid="h2bbcedbdg04eeg7815g43b7g3cafbad0f696" version="2">Add this tag.</content>
   <content contentuid="h8014f353g959agcf1bgdb14g016ec925c924" version="1">Oath of the Crown</content>
@@ -386,11 +386,15 @@
   <content contentuid="hea5674d0g58f9g1a07g4859g0679b2ce696b" version="2">Add this tag.</content>
   <content contentuid="h26173b49g1d70g3351g4209gb19914e207fb" version="2">The Hexblade</content>
   <content contentuid="h06ab672bga023gac56gfc8bg3d3e2d5860f1" version="2">Add this tag.</content>
-  <content contentuid="h3046fb7eg901bg570bg5e35gd83b7a0d79d2" version="2">Bladesinger (hidden)</content>
+  <content contentuid="h3046fb7eg901bg570bg5e35gd83b7a0d79d2" version="3">Bladesinger</content>
   <content contentuid="h85f8a28cgf1a6g1ca7g27a6g331ef9a14e31" version="2">Add this tag.</content>
-  <content contentuid="h56501c50gda89gf3ddg3504gad33c0982151" version="2">Bladesinger (hidden)</content>
+  <content contentuid="h56501c50gda89gf3ddg3504gad33c0982151" version="3">Bladesinger</content>
   <content contentuid="h3ba7f22dg1e66gfb01g25d1gbcbe296613e4" version="2">Add this tag.</content>
   <content contentuid="h58ee6bf9g85f5g0c56g2d7ag89aacf7cadb8" version="1">Remove this tag.</content>
   <content contentuid="hf8ec4aa8g7b9eg75e3g13e8g607c5c12366b" version="1">Remove humanoid?</content>
   <content contentuid="h3f8e07e0ga7c2g7fb9g6ceeg638a4d426949" version="1">Remove the HUMANOID tag.</content>
+  <content contentuid="h3016484dg6ffdgb332g4d09gc094b0b398c3" version="3">Planar</content>
+  <content contentuid="h0db1b8fag1cd4ga4f9gbf1eg3970b1ad0c5f" version="1">Add the PLANAR tag.</content>
+  <content contentuid="h7d1be5a4g97e8g78e4gf7fbg46cb7b76055d" version="2">Planar</content>
+  <content contentuid="h75f7643ega83fg4ad6gaf82gcdf01220e359" version="1">Add the PLANAR tag. (Hidden on character sheet).</content>
 </contentList>

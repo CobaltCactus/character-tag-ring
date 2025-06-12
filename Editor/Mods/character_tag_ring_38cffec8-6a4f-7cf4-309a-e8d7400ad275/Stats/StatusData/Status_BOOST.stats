@@ -10,7 +10,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_PassWithoutTrace" />
         <field name="StackId" type="StringTableFieldDefinition" value="CLASS_RING_TAG_ALL" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(BARBARIAN);Tag(BARD);Tag(DRUID);Tag(CLERIC);Tag(FIGHTER);Tag(MONK);Tag(PALADIN);Tag(RANGER);Tag(ROGUE);Tag(SORCERER);Tag(WARLOCK);Tag(WIZARD);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -23,7 +23,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_PassWithoutTrace" />
         <field name="StackId" type="StringTableFieldDefinition" value="SUBCLASS_RING_TAG_ALL" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(BERSERKER);Tag(PALADIN_ANCIENTS);Tag(PALADIN_DEVOTION);Tag(PALADIN_VENGEANCE);Tag(OATHBREAKER);Tag(RANGER_BEAST_MASTER);Tag(RANGER_HUNTER);Tag(RANGER_GLOOM_STALKER);Tag(SORCERER_DRACONIC);Tag(SORCERER_WILDMAGIC);Tag(WARLOCK_FIEND);Tag(WARLOCK_GREAT_OLD_ONE);Tag(WARLOCK_ARCHFEY);Tag(WIZARD_NECROMANCY);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -36,7 +36,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Bane" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG_REMOVER" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(PALADIN);Tag(CLERIC);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -49,7 +49,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Monster_Slayer_RelentlessLunge" />
         <field name="StackId" type="StringTableFieldDefinition" value="RACE_RING_TAG_ALL" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ELF);Tag(HIGHELF);Tag(WOODELF);Tag(TIEFLING);Tag(ASMODEUSTIEFLING);Tag(MEPHISTOPHELESTIEFLIN);Tag(ZARIELTIEFLING);Tag(DROWELF);Tag(LOLTHDROWELF);Tag(SELDARINEDROWELF);Tag(GITHYANKI);Tag(HUMAN);Tag(DWARF);Tag(HILLDWARF);Tag(MOUNTAINDWARF);Tag(DUERGARDWARF);Tag(HALFELF);Tag(HIGHHALFELF);Tag(WOODHALFELF);Tag(DROWHALFELF);Tag(HALFLING);Tag(LIGHTFOOTHALFLING);Tag(STOUTHALFLING);Tag(GNOME);Tag(ROCKGNOME);Tag(DEEPGNOME);Tag(FORESTGNOME);Tag(DRAGONBORN);Tag(HALFORC);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -62,7 +62,20 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_Baldurian" />
         <field name="StackId" type="StringTableFieldDefinition" value="BALDURIAN_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(BALDURIAN);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7a07a8b1-7aa9-4706-b2d0-6c5abf0590bc" />
+        <field name="Name" type="NameTableFieldDefinition" value="PLANAR_RING_TAG" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3016484dg6ffdgb332g4d09gc094b0b398c3" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0db1b8fag1cd4ga4f9gbf1eg3970b1ad0c5f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_Planar" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PLANAR_RING_TAG" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(PLANAR);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -75,7 +88,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_Underdark" />
         <field name="StackId" type="StringTableFieldDefinition" value="UNDERDARK_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(UNDERDARK);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -83,12 +96,12 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2e763c34-c2fd-4b60-95d6-553c684c43e9" />
         <field name="Name" type="NameTableFieldDefinition" value="SHORT_RING_TAG" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h15e99596geea2g4880g5fd0ga90c4117d7e2" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2a1e2676g37b0ga251g4031g1832a5d6b7f9" version="3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h15e99596geea2g4880g5fd0ga90c4117d7e2" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2a1e2676g37b0ga251g4031g1832a5d6b7f9" version="4" />
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_Short" />
         <field name="StackId" type="StringTableFieldDefinition" value="SHORT_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(SHORT);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -96,12 +109,12 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2bd0eadd-63f8-4ad2-a32d-8ba7fc22c4c3" />
         <field name="Name" type="NameTableFieldDefinition" value="RARE_RING_TAG" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he234ce7ag2641g0698g465eg4599a8a5832e" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9f04dffdg6435ga4aaga824g21c20473ae7a" version="3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he234ce7ag2641g0698g465eg4599a8a5832e" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9f04dffdg6435ga4aaga824g21c20473ae7a" version="4" />
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_Rare" />
         <field name="StackId" type="StringTableFieldDefinition" value="RARE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(RARE);Tag(REALLY_RARE);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -114,7 +127,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Barbarian" />
         <field name="StackId" type="StringTableFieldDefinition" value="BARBARIAN_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(BARBARIAN);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -127,7 +140,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Bard" />
         <field name="StackId" type="StringTableFieldDefinition" value="BARD_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(BARD);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -140,7 +153,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Cleric" />
         <field name="StackId" type="StringTableFieldDefinition" value="CLERIC_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(CLERIC);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -153,7 +166,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Druid" />
         <field name="StackId" type="StringTableFieldDefinition" value="DRUID_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(DRUID);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -166,7 +179,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Fighter" />
         <field name="StackId" type="StringTableFieldDefinition" value="FIGHTER_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(FIGHTER);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -179,7 +192,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Monk" />
         <field name="StackId" type="StringTableFieldDefinition" value="MONK_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(MONK);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -192,7 +205,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Paladin" />
         <field name="StackId" type="StringTableFieldDefinition" value="PALADIN_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(PALADIN);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -205,7 +218,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Ranger" />
         <field name="StackId" type="StringTableFieldDefinition" value="RANGER_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(RANGER);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -218,7 +231,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Rogue" />
         <field name="StackId" type="StringTableFieldDefinition" value="ROGUE_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ROGUE);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -231,7 +244,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Sorcerer" />
         <field name="StackId" type="StringTableFieldDefinition" value="SORCERER_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(SORCERER);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -244,7 +257,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Warlock" />
         <field name="StackId" type="StringTableFieldDefinition" value="WARLOCK_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WARLOCK);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -257,7 +270,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Wizard" />
         <field name="StackId" type="StringTableFieldDefinition" value="WIZARD_CLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WIZARD);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -270,7 +283,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Berserker" />
         <field name="StackId" type="StringTableFieldDefinition" value="BERSERKER_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(BERSERKER);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -283,7 +296,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Ancients" />
         <field name="StackId" type="StringTableFieldDefinition" value="PALADIN_ANCIENTS_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(PALADIN_ANCIENTS);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -296,7 +309,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Devotion" />
         <field name="StackId" type="StringTableFieldDefinition" value="PALADIN_DEVOTION_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(PALADIN_DEVOTION);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -309,7 +322,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Vengeance" />
         <field name="StackId" type="StringTableFieldDefinition" value="PALADIN_VENGEANCE_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(PALADIN_VENGEANCE);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -322,7 +335,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Crown" />
         <field name="StackId" type="StringTableFieldDefinition" value="PALADIN_CROWN_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(PALADIN_CROWN);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -335,7 +348,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Oathbreaker" />
         <field name="StackId" type="StringTableFieldDefinition" value="OATHBREAKER_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(OATHBREAKER);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -343,12 +356,12 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="113c87c6-7ae4-45ad-815a-29035c04ce1d" />
         <field name="Name" type="NameTableFieldDefinition" value="RANGER_BEAST_MASTER_SUBCLASS_RING_TAG" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbd999c52gc205g0a5dgde8fg5bb9abf2c803" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbd999c52gc205g0a5dgde8fg5bb9abf2c803" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcaf7f91bgbdcbg5d03gaee8ga47b18214176" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_BeastMaster" />
         <field name="StackId" type="StringTableFieldDefinition" value="RANGER_BEAST_MASTER_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(RANGER_BEAST_MASTER);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -356,12 +369,12 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="71e53b19-cdd9-4dc0-b297-05012977d17a" />
         <field name="Name" type="NameTableFieldDefinition" value="RANGER_HUNTER_SUBCLASS_RING_TAG" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h107de70fg659cg07bdgf95cgb03787f84ccd" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h107de70fg659cg07bdgf95cgb03787f84ccd" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he7f0f536g9f96g4efdg6ac1ga497474edcff" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Hunter" />
         <field name="StackId" type="StringTableFieldDefinition" value="RANGER_HUNTER_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(RANGER_HUNTER);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -369,12 +382,12 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3d626f9a-b51a-411a-a5a9-c78ef51780c9" />
         <field name="Name" type="NameTableFieldDefinition" value="RANGER_GLOOM_STALKER_SUBCLASS_RING_TAG" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9ace571cgadc8gfadag2cfdg626d3adec170" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9ace571cgadc8gfadag2cfdg626d3adec170" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd38c1ccfge932ga2d1gcd2dg37653d8f4012" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_GloomStalker" />
         <field name="StackId" type="StringTableFieldDefinition" value="RANGER_GLOOM_STALKER_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(RANGER_GLOOM_STALKER);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -382,12 +395,12 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="bdcf5acb-76a7-4213-a746-37b2a3a47dda" />
         <field name="Name" type="NameTableFieldDefinition" value="SORCERER_DRACONIC_SUBCLASS_RING_TAG" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcb5106f8g66c8gedd3gf700g4055b664bad1" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcb5106f8g66c8gedd3gf700g4055b664bad1" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h10a18675gee85gfdfeg731eg64fe7c67c532" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_DraconicBloodline" />
         <field name="StackId" type="StringTableFieldDefinition" value="SORCERER_DRACONIC_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(SORCERER_DRACONIC);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -395,12 +408,12 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3b2a2032-02fb-48f0-a484-b78c30826025" />
         <field name="Name" type="NameTableFieldDefinition" value="SORCERER_WILDMAGIC_SUBCLASS_RING_TAG" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4e65e2cag02fag7f6bga101g1adadf55b2a4" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4e65e2cag02fag7f6bga101g1adadf55b2a4" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd1f71587g396eg70ecgd355g055f579e473e" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_WildMagic" />
         <field name="StackId" type="StringTableFieldDefinition" value="SORCERER_WILDMAGIC_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(SORCERER_WILDMAGIC);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -413,7 +426,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Fiend" />
         <field name="StackId" type="StringTableFieldDefinition" value="WARLOCK_FIEND_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WARLOCK_FIEND);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -426,7 +439,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_GreatOldOne" />
         <field name="StackId" type="StringTableFieldDefinition" value="WARLOCK_GREAT_OLD_ONE_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WARLOCK_GREAT_OLD_ONE);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -439,7 +452,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Archfey" />
         <field name="StackId" type="StringTableFieldDefinition" value="WARLOCK_ARCHFEY_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WARLOCK_ARCHFEY);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -452,7 +465,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Hexblade" />
         <field name="StackId" type="StringTableFieldDefinition" value="WARLOCK_HEXBLADE_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WARLOCK_HEXBLADE);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -460,12 +473,12 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8bf3dd02-4980-433e-bcfd-cbfe88ab708c" />
         <field name="Name" type="NameTableFieldDefinition" value="WIZARD_NECROMANCY_SUBCLASS_RING_TAG" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3c06a37dgb40agc330g38f1ga93ba4d8b45c" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3c06a37dgb40agc330g38f1ga93ba4d8b45c" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heff97471g6c91ga8adgcbf0g963adb9185c4" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Necromancy" />
         <field name="StackId" type="StringTableFieldDefinition" value="WIZARD_NECROMANCY_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WIZARD_NECROMANCY);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -473,12 +486,12 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="21ae3a6c-4a0d-44be-bd1c-2e2601f8b480" />
         <field name="Name" type="NameTableFieldDefinition" value="WIZARD_BLADESINGING_SUBCLASS_RING_TAG" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3046fb7eg901bg570bg5e35gd83b7a0d79d2" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3046fb7eg901bg570bg5e35gd83b7a0d79d2" version="3" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h85f8a28cgf1a6g1ca7g27a6g331ef9a14e31" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeClass_Bladesinging" />
         <field name="StackId" type="StringTableFieldDefinition" value="WIZARD_BLADESINGING_SUBCLASS_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WIZARD_BLADESINGING);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -491,7 +504,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Bahamut" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(BAHAMUT);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -504,7 +517,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Bane" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(BANE);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -517,7 +530,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Bhaal" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(BHAAL);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -530,7 +543,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Corellon" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(CORELLONLARETHIAN);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -543,7 +556,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Elistrae" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(EILISTRAEE);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -556,7 +569,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Garl" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(GARLGLITTERGOLD);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -569,7 +582,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Gruumsh" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(GRUUMSH);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -582,7 +595,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Helm" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(HELM);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -595,7 +608,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Ilmater" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ILMATER);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -608,7 +621,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Kelemvor" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(KELEMVOR);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -621,7 +634,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Laduguer" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(LADUGUER);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -634,7 +647,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Lathandar" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(LATHANDER);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -647,7 +660,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Lolth" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(LOLTH);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -660,7 +673,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Mielikki" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(MIELIKKI);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -673,7 +686,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Moradin" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(MORADIN);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -686,7 +699,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Myrkul" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(MYRKUL);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -699,7 +712,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Mystra" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(MYSTRA);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -712,7 +725,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Oghma" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(OGHMA);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -725,7 +738,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Selune" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(SELUNE);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -738,7 +751,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Shar" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(SHAR);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -751,7 +764,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Talos" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(TALOS);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -764,7 +777,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Tempus" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(TEMPUS);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -777,7 +790,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Tiamat" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(TIAMAT);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -790,7 +803,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Tymora" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(TYMORA);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -803,7 +816,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Tyr" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(TYR);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -816,7 +829,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Vlaakith" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(VLAAKITH);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -829,7 +842,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeDeity_Yondolla" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEITY_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(YONDALLA);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -842,7 +855,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Elf" />
         <field name="StackId" type="StringTableFieldDefinition" value="ELF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ELF);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -855,7 +868,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_HighElf" />
         <field name="StackId" type="StringTableFieldDefinition" value="HIGHELF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(HIGHELF);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -868,7 +881,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_WoodElf" />
         <field name="StackId" type="StringTableFieldDefinition" value="WOODELF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WOODELF);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -881,7 +894,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Tiefling" />
         <field name="StackId" type="StringTableFieldDefinition" value="TIEFLING_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(TIEFLING);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -894,7 +907,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Asmodeus" />
         <field name="StackId" type="StringTableFieldDefinition" value="ASMODEUSTIEFLING_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ASMODEUSTIEFLING);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -907,7 +920,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Mephistopeles" />
         <field name="StackId" type="StringTableFieldDefinition" value="MEPHISTOPHELESTIEFLING_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(MEPHISTOPHELESTIEFLING);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -920,7 +933,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Zariel" />
         <field name="StackId" type="StringTableFieldDefinition" value="ZARIELTIEFLING_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ZARIELTIEFLING);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -933,7 +946,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Drow" />
         <field name="StackId" type="StringTableFieldDefinition" value="DROWELF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(DROWELF);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -946,7 +959,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_LolthSworn" />
         <field name="StackId" type="StringTableFieldDefinition" value="LOLTHDROWELF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(LOLTHDROWELF);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -959,7 +972,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Seldarine" />
         <field name="StackId" type="StringTableFieldDefinition" value="SELDARINEDROWELF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(SELDARINEDROWELF);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -972,7 +985,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Githyanki" />
         <field name="StackId" type="StringTableFieldDefinition" value="GITHYANKI_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(GITHYANKI);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -985,7 +998,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Human" />
         <field name="StackId" type="StringTableFieldDefinition" value="HUMAN_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(HUMAN);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -998,7 +1011,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Dwarf" />
         <field name="StackId" type="StringTableFieldDefinition" value="DWARF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(DWARF);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -1011,7 +1024,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_GoldHill" />
         <field name="StackId" type="StringTableFieldDefinition" value="HILLDWARF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(HILLDWARF)" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -1024,7 +1037,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_ShieldMountain" />
         <field name="StackId" type="StringTableFieldDefinition" value="MOUNTAINDWARF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(MOUNTAINDWARF);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -1037,7 +1050,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Duergar" />
         <field name="StackId" type="StringTableFieldDefinition" value="DUERGARDWARF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(DUERGARDWARF);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -1050,7 +1063,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Half-Elf" />
         <field name="StackId" type="StringTableFieldDefinition" value="HALFELF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(HALFELF);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -1063,7 +1076,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_HighHalf-Elf" />
         <field name="StackId" type="StringTableFieldDefinition" value="HIGHHALFELF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(HIGHHALFELF);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -1076,7 +1089,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_WoodHalf-Elf" />
         <field name="StackId" type="StringTableFieldDefinition" value="WOODHALFELF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WOODHALFELF);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -1089,7 +1102,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_DrowHalf-Elf" />
         <field name="StackId" type="StringTableFieldDefinition" value="DROWHALFELF_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(DROWHALFELF);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -1102,7 +1115,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Halfling" />
         <field name="StackId" type="StringTableFieldDefinition" value="HALFLING_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(HALFLING);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -1115,7 +1128,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Lightfoot" />
         <field name="StackId" type="StringTableFieldDefinition" value="LIGHTFOOTHALFLING_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(LIGHTFOOTHALFLING);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -1128,7 +1141,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Strongheart" />
         <field name="StackId" type="StringTableFieldDefinition" value="STOUTHALFLING_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(STOUTHALFLING);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -1141,7 +1154,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="RaceChange_Gnome" />
         <field name="StackId" type="StringTableFieldDefinition" value="GNOME_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(GNOME);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -1154,7 +1167,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Rock" />
         <field name="StackId" type="StringTableFieldDefinition" value="ROCKGNOME_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ROCKGNOME);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -1167,7 +1180,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Deep" />
         <field name="StackId" type="StringTableFieldDefinition" value="DEEPGNOME_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(DEEPGNOME);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -1180,7 +1193,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Forest" />
         <field name="StackId" type="StringTableFieldDefinition" value="FORESTGNOME_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(FORESTGNOME);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -1193,7 +1206,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Dragonborn" />
         <field name="StackId" type="StringTableFieldDefinition" value="DRAGONBORN_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(DRAGONBORN);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -1206,7 +1219,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeRace_Half-Orc" />
         <field name="StackId" type="StringTableFieldDefinition" value="HALFORC_RACE_RING_TAG" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(HALFORC);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
