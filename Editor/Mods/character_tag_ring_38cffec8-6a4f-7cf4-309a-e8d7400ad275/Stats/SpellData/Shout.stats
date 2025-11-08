@@ -1444,7 +1444,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ChangeOtherTags" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Illusion" enumeration_type_name="SpellSchool" version="1" />
-        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_ChangeOtherTags_RemoveAllOthers;Shout_ChangeOtherTags_AddBaldurian;Shout_ChangeOtherTags_AddUnderdark;Shout_ChangeOtherTags_AddShort;Shout_ChangeOtherTags_AddRare;Shout_ChangeOtherTags_AddPlanar;" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_ChangeOtherTags_RemoveAllOthers;Shout_ChangeOtherTags_AddBaldurian;Shout_ChangeOtherTags_AddUnderdark;Shout_ChangeOtherTags_AddShort;Shout_ChangeOtherTags_AddRare;Shout_ChangeOtherTags_AddPlanar;Shout_ChangeOtherTags_AddAstarion;Shout_ChangeOtherTags_AddGale;Shout_ChangeOtherTags_AddKarlach;Shout_ChangeOtherTags_AddWyll;Shout_ChangeOtherTags_AddLaezelOrpheus;Shout_ChangeOtherTags_AddLaezelVlaakith;Shout_ChangeOtherTags_AddShadowheartEnemyOfShar;Shout_ChangeOtherTags_AddShadowheartSharran;" />
         <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther" />
@@ -1470,11 +1470,11 @@
         <field name="Name" type="NameTableFieldDefinition" value="ChangeOtherTags_RemoveAllOthers" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="40a3d06c-840e-48e2-8655-7d2b7a0a4f8e" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeOtherTags" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BALDURIAN_RING_TAG);RemoveStatus(UNDERDARK_RING_TAG);RemoveStatus(SHORT_RING_TAG);RemoveStatus(RARE_RING_TAG);RemoveStatus(PLANAR_RING_TAG);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BALDURIAN_RING_TAG);RemoveStatus(UNDERDARK_RING_TAG);RemoveStatus(SHORT_RING_TAG);RemoveStatus(RARE_RING_TAG);RemoveStatus(PLANAR_RING_TAG);RemoveStatus(ASTARION_RING_TAG);RemoveStatus(GALE_RING_TAG);RemoveStatus(KARLACH_RING_TAG);RemoveStatus(LAEZEL_RING_TAG);RemoveStatus(LAEZEL_ORPHEUSPATH_RING_TAG);RemoveStatus(SHADOWHEART_RING_TAG);RemoveStatus(SHADOWHEART_ENEMYOFSHAR_RING_TAG);RemoveStatus(WYLL_RING_TAG);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Bane" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf67c0cefg3859g4520g52acg9c3fb7302000" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b35332dgd79eg8358g3730gb91a44dc5b77" version="2" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="RemoveStatus(BALDURIAN_RING_TAG);RemoveStatus(UNDERDARK_RING_TAG);RemoveStatus(SHORT_RING_TAG);RemoveStatus(RARE_RING_TAG);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b35332dgd79eg8358g3730gb91a44dc5b77" version="3" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="RemoveStatus(BALDURIAN_RING_TAG);&#xD;&#xA;RemoveStatus(UNDERDARK_RING_TAG);&#xD;&#xA;RemoveStatus(SHORT_RING_TAG);&#xD;&#xA;RemoveStatus(RARE_RING_TAG);&#xD;&#xA;RemoveStatus(PLANAR_RING_TAG);&#xD;&#xA;RemoveStatus(ASTARION_RING_TAG);&#xD;&#xA;RemoveStatus(GALE_RING_TAG);&#xD;&#xA;RemoveStatus(KARLACH_RING_TAG);&#xD;&#xA;RemoveStatus(LAEZEL_RING_TAG);&#xD;&#xA;RemoveStatus(LAEZEL_ORPHEUSPATH_RING_TAG);&#xD;&#xA;RemoveStatus(SHADOWHEART_RING_TAG);&#xD;&#xA;RemoveStatus(SHADOWHEART_ENEMYOFSHAR_RING_TAG);&#xD;&#xA;RemoveStatus(WYLL_RING_TAG);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1549,6 +1549,126 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h75f7643ega83fg4ad6gaf82gcdf01220e359" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PLANAR_RING_TAG,100,-1);" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('PLANAR_RING_TAG')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c8d93601-d700-42d4-bd86-78f54e81f23b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChangeOtherTags_AddAstarion" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40a3d06c-840e-48e2-8655-7d2b7a0a4f8e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeOtherTags" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ASTARION_RING_TAG,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOrigin_Astarion" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hef502278gdc4eg0daegbbb2g2597c91efd29" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0144e7a9gabc4g36d1gc824ga038430e0f30" version="3" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ASTARION_RING_TAG,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('ASTARION_RING_TAG')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0bad71f6-5848-4d18-a901-f73e1a9453f6" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChangeOtherTags_AddGale" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40a3d06c-840e-48e2-8655-7d2b7a0a4f8e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeOtherTags" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(GALE_RING_TAG,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOrigin_Gale" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he4c967ecg768egeee4g5a4ag44585b9c7f40" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35919d2fg2bf4g20b3gd5d8gca49731a094e" version="3" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(GALE_RING_TAG,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('GALE_RING_TAG')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="13814072-e10e-4a5f-b0c4-263220446b6c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChangeOtherTags_AddKarlach" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40a3d06c-840e-48e2-8655-7d2b7a0a4f8e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeOtherTags" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(KARLACH_RING_TAG,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOrigin_Karlach" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he4394aabga8cdgc7f9g5978g3afbfdaba355" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1e4e9dc2gd6f9g478cg801fg59bab9df2b90" version="3" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(KARLACH_RING_TAG,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('KARLACH_RING_TAG')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea87ef5b-6c18-413c-8ec8-2e6f13fae6b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChangeOtherTags_AddLaezelVlaakith" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40a3d06c-840e-48e2-8655-7d2b7a0a4f8e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeOtherTags" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(LAEZEL_RING_TAG,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOrigin_Laezel" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h680089f6g34f8g2a97g4cafg6671a4f01160" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h79fed929ga536gba41g8179gbcbc3a35ee0d" version="4" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(LAEZEL_RING_TAG,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('LAEZEL_RING_TAG')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1251847d-346f-4fc0-b8c5-8d97e86348e4" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChangeOtherTags_AddLaezelOrpheus" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40a3d06c-840e-48e2-8655-7d2b7a0a4f8e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeOtherTags" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(LAEZEL_ORPHEUSPATH_RING_TAG,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOrigin_Laezel_OrpheusPath" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8a6b6296g5d3fgf3cag4658g19ce40cfb2b8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h392efda1g7afbg17fag24a7g68d58f482ef7" version="3" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(LAEZEL_ORPHEUSPATH_RING_TAG,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('LAEZEL_ORPHEUSPATH_RING_TAG')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3b43811a-3bdb-45e7-b112-b881c0abda2e" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChangeOtherTags_AddShadowheartSharran" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40a3d06c-840e-48e2-8655-7d2b7a0a4f8e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeOtherTags" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SHADOWHEART_RING_TAG,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOrigin_Shadowheart" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hab0bdecag5d30g014dgcbc8g4a7f4874ef47" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h433f7b75ge196g7b1egb8e4ga3febf935590" version="2" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SHADOWHEART_RING_TAG,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('SHADOWHEART_RING_TAG')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="acc881b6-3960-4768-9ece-e9b21d290164" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChangeOtherTags_AddShadowheartEnemyOfShar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40a3d06c-840e-48e2-8655-7d2b7a0a4f8e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeOtherTags" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SHADOWHEART_ENEMYOFSHAR_RING_TAG,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOrigin_Shadowheart_EnemyOfShar" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h163afc83g5c75g83b1g0b4eg53e207a83a5b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h89712c1bgf212gfdb2g392dgb294c8a31e0e" version="2" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SHADOWHEART_ENEMYOFSHAR_RING_TAG,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('SHADOWHEART_ENEMYOFSHAR_RING_TAG')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea46c7bc-1d58-4906-8ad4-407e41ccb112" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChangeOtherTags_AddWyll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40a3d06c-840e-48e2-8655-7d2b7a0a4f8e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ChangeOtherTags" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WYLL_RING_TAG,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOrigin_Wyll" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf3cac06bg084egdc68g1f8cg3f5dd43e9a7f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h82b2264fg677ag1119g165dg33960bf9a9c9" version="2" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WYLL_RING_TAG,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('WYLL_RING_TAG')" />
         <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>

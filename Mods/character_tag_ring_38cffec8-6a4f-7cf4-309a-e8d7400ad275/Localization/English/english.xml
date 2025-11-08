@@ -365,7 +365,7 @@
   <content contentuid="h0ee3c2c6gc65cgcc43g8e60g68c2cab2b51c" version="2">Add this tag.</content>
   <content contentuid="ha2881d99gf198g9385g02b2g7ec88ebcd4a3" version="2">Add this tag.</content>
   <content contentuid="hf67c0cefg3859g4520g52acg9c3fb7302000" version="1">Remove Other Tags</content>
-  <content contentuid="h4b35332dgd79eg8358g3730gb91a44dc5b77" version="2">Remove all OTHER tags (Baldurian, Underdark, Short, Rare).</content>
+  <content contentuid="h4b35332dgd79eg8358g3730gb91a44dc5b77" version="3">Remove all OTHER tags (Baldurian, Underdark, Short, Rare, Etc.).</content>
   <content contentuid="he5795db2g0d24g715ag9996g8a05716fa1ba" version="1">Change Other Tags</content>
   <content contentuid="h6b652613gd949g88fbg163ega8cc1890d18e" version="2">Manage your OTHER tags.</content>
   <content contentuid="h1a672c22g7d08g0afcgc6a3g24a329dc7143" version="1">Baldurian</content>
@@ -397,4 +397,54 @@
   <content contentuid="h0db1b8fag1cd4ga4f9gbf1eg3970b1ad0c5f" version="1">Add the PLANAR tag.</content>
   <content contentuid="h7d1be5a4g97e8g78e4gf7fbg46cb7b76055d" version="2">Planar</content>
   <content contentuid="h75f7643ega83fg4ad6gaf82gcdf01220e359" version="1">Add the PLANAR tag. (Hidden on character sheet).</content>
+  <content contentuid="h4335f5fbgcb05gf906ga581g803a2b26eb94" version="1">Astarion</content>
+  <content contentuid="h457d9854g62aag800bgbe1ag5336097f28c8" version="2">Add this origin tag. *Typically not allowed for Tavs.</content>
+  <content contentuid="h80b783f3gd868g6076g8733ge4d5cd82d106" version="1">Lae'zel (Vlaakith Path)</content>
+  <content contentuid="ha06a83a4gd622g7952ga575gc5c176ecd8b3" version="2">Add this origin tag. *Typically not allowed for Tavs.</content>
+  <content contentuid="hae563f3cg4666g1a19g1fc7g74d99218d2f5" version="1">Lae'zel (Orpheus Path)</content>
+  <content contentuid="ha6830f06g6765g5febg3ab7g1837bfd6c1fd" version="2">Add this origin tag. *Typically not allowed for Tavs.</content>
+  <content contentuid="hb666626egd631g57bbgc074ge21a7b60da8e" version="1">Gale</content>
+  <content contentuid="h03d00db3g903cg0a28ga946gfc972f06f338" version="2">Add this origin tag. *Typically not allowed for Tavs.</content>
+  <content contentuid="haef2eea2gc83bgc3bcga2fcg3af025f2c674" version="1">Karlach</content>
+  <content contentuid="h2dc93a3eg1539gefa9g4c97g9a28d42e9e79" version="2">Add this origin tag. *Typically not allowed for Tavs.</content>
+  <content contentuid="hfe0f0221g58e2g51aag0dcbgfc9b536127e5" version="1">Shadowheart (Sharran)</content>
+  <content contentuid="h59c4888cgf401g1d94ge1b3g20c11d1a50c2" version="2">Add this origin tag. *Typically not allowed for Tavs.</content>
+  <content contentuid="h5a913b4dg657bgca62g4123g476c85c7464a" version="1">Shadowheart (Selûnite)</content>
+  <content contentuid="hbfbfd4bbgfbd6g9bd8gbe2bg04ecd646d6bf" version="2">Add this origin tag. *Typically not allowed for Tavs.</content>
+  <content contentuid="hb9520ceag7dc3g5951g1cc7gb8280684eb32" version="1">Wyll</content>
+  <content contentuid="h6a4172e1gf551gb777g657dg1885784189d3" version="2">Add this origin tag. *Typically not allowed for Tavs.</content>
+  <content contentuid="hc953a335g9e3dg33d4g29e3g6cbc00854df7" version="1">Apostle of Myrkul</content>
+  <content contentuid="h6365819cg6332g8a58g1fb3g00f47c406b0e" version="2">Add this tag. *Typically not allowed for Tavs.</content>
+  <content contentuid="h2e940973g1774g6db2g649ag9f0289a27a40" version="1">Banite</content>
+  <content contentuid="h4441d651gc501g7c30g9231gf6242bf470e7" version="1">Add this tag. *Typically not allowed for Tavs.</content>
+  <content contentuid="hf212289bg4fdbg8a5agd35ag1497ec77314a" version="1">Bestial</content>
+  <content contentuid="hf0ec44efg9f11g1376gbb8cg1ea2302a94f6" version="1">Add this tag. *Typically not allowed for Tavs.</content>
+  <content contentuid="h8bc79397g66e0gd1f2gfc8fg2aaa08c38d69" version="1">Chosen of Boooal</content>
+  <content contentuid="hbdd80439gd627g98ffg5d98gb77150b4f0cf" version="1">Add this tag.</content>
+  <content contentuid="h7466ac84gf2a3g6074g8698g392ab4cb74e6" version="1">Construct</content>
+  <content contentuid="hd0ce7618gba61g8378g5213g4dc5ec0b8688" version="1">Add this tag. *Typically not allowed for Tavs.</content>
+  <content contentuid="h9bef427bg82d7g7e66gfcc1gadd9f7d5993c" version="1">Truesoul</content>
+  <content contentuid="h02d96a27g7a9bg91a0g63d0g7015379e6594" version="1">Add this tag.</content>
+  <content contentuid="h7aed693dg8dbfg1194g3affge8cac45ca502" version="1">Undead</content>
+  <content contentuid="h0e295f7cgc2b9gbee9ga53fg96ca1325fd7f" version="1">Add this tag. *Typically not allowed for Tavs.</content>
+  <content contentuid="h2abc4832g40a7g144dg79d4g08f05ed57799" version="1">Vampire</content>
+  <content contentuid="h05f41e8ag1f93gc971g6dceg35ebe17080f2" version="1">Add this tag. *Extremely rare for Tavs.</content>
+  <content contentuid="hef502278gdc4eg0daegbbb2g2597c91efd29" version="1">Astarion</content>
+  <content contentuid="h0144e7a9gabc4g36d1gc824ga038430e0f30" version="3">Add the ASTARION and REALLY_ASTARION tags. (Hidden on character sheet).</content>
+  <content contentuid="he4c967ecg768egeee4g5a4ag44585b9c7f40" version="1">Gale</content>
+  <content contentuid="h35919d2fg2bf4g20b3gd5d8gca49731a094e" version="3">Add the GALE and REALLY_GALE tags. (Hidden on character sheet).</content>
+  <content contentuid="he4394aabga8cdgc7f9g5978g3afbfdaba355" version="1">Karlach</content>
+  <content contentuid="h1e4e9dc2gd6f9g478cg801fg59bab9df2b90" version="3">Add the KARLACH and REALLY_KARLACH tags. (Hidden on character sheet).</content>
+  <content contentuid="h680089f6g34f8g2a97g4cafg6671a4f01160" version="2">Lae'zel (Vlaakith Path)</content>
+  <content contentuid="h79fed929ga536gba41g8179gbcbc3a35ee0d" version="4">Add the LAEZEL and REALLY_LAEZEL tags. (Hidden on character sheet).</content>
+  <content contentuid="h8a6b6296g5d3fgf3cag4658g19ce40cfb2b8" version="1">Lae'zel (Orpheus Path)</content>
+  <content contentuid="h392efda1g7afbg17fag24a7g68d58f482ef7" version="3">Add the LAEZEL, REALLY_LAEZEL, and LAEZEL_ORPHEUSPATH tags. (Hidden on character sheet).</content>
+  <content contentuid="hab0bdecag5d30g014dgcbc8g4a7f4874ef47" version="1">Shadowheart (Sharran)</content>
+  <content contentuid="h433f7b75ge196g7b1egb8e4ga3febf935590" version="2">Add the SHADOWHEART, REALLY_SHADOWHEART, and SHADOWHEART_SHARPATH tags. (Hidden on character sheet).</content>
+  <content contentuid="h163afc83g5c75g83b1g0b4eg53e207a83a5b" version="1">Shadowheart (Selûnite)</content>
+  <content contentuid="h89712c1bgf212gfdb2g392dgb294c8a31e0e" version="2">Add the SHADOWHEART, REALLY_SHADOWHEART, and SHADOWHEART_ENEMYOFSHAR tags. (Hidden on character sheet).</content>
+  <content contentuid="hf3cac06bg084egdc68g1f8cg3f5dd43e9a7f" version="1">Wyll</content>
+  <content contentuid="h82b2264fg677ag1119g165dg33960bf9a9c9" version="2">Add the WYLL and REALLY_WYLL tags. (Hidden on character sheet).</content>
+  <content contentuid="h41ab6981ga42cg196eg3d46gaba05c3e01db" version="1">Lae'zel (Vlaakith Path)</content>
+  <content contentuid="h9d49beedgc982g27a3g942fg822c8861f1d6" version="1">Add the LAEZEL and REALLY_LAEZEL tags. (Hidden on character sheet).</content>
 </contentList>

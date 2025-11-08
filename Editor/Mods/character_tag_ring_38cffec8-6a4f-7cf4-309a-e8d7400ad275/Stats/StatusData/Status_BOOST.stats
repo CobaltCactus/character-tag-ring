@@ -1223,5 +1223,213 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="54cba94b-92fa-400c-8c86-273bc9f473c0" />
+        <field name="Name" type="NameTableFieldDefinition" value="ASTARION_RING_TAG" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4335f5fbgcb05gf906ga581g803a2b26eb94" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h457d9854g62aag800bgbe1ag5336097f28c8" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOrigin_Astarion" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ASTARION_RING_TAG" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ASTARION);Tag(REALLY_ASTARION);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f984a704-e188-41b7-aa95-1370707e7aec" />
+        <field name="Name" type="NameTableFieldDefinition" value="GALE_RING_TAG" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb666626egd631g57bbgc074ge21a7b60da8e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h03d00db3g903cg0a28ga946gfc972f06f338" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOrigin_Gale" />
+        <field name="StackId" type="StringTableFieldDefinition" value="GALE_RING_TAG" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(GALE);Tag(REALLY_GALE);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b434135-b7fc-421b-819a-1aaa27294047" />
+        <field name="Name" type="NameTableFieldDefinition" value="KARLACH_RING_TAG" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haef2eea2gc83bgc3bcga2fcg3af025f2c674" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2dc93a3eg1539gefa9g4c97g9a28d42e9e79" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOrigin_Karlach" />
+        <field name="StackId" type="StringTableFieldDefinition" value="KARLACH_RING_TAG" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(KARLACH);Tag(REALLY_KARLACH);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e9d028c5-30a2-4b98-824f-cfd0b306ab48" />
+        <field name="Name" type="NameTableFieldDefinition" value="LAEZEL_RING_TAG" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h80b783f3gd868g6076g8733ge4d5cd82d106" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha06a83a4gd622g7952ga575gc5c176ecd8b3" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOrigin_Laezel" />
+        <field name="StackId" type="StringTableFieldDefinition" value="LAEZEL_RING_TAG" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(LAEZEL);Tag(REALLY_LAEZEL);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6a7549a9-f22e-47d2-a1ff-81d6db77947f" />
+        <field name="Name" type="NameTableFieldDefinition" value="LAEZEL_ORPHEUSPATH_RING_TAG" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hae563f3cg4666g1a19g1fc7g74d99218d2f5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha6830f06g6765g5febg3ab7g1837bfd6c1fd" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOrigin_Laezel_OrpheusPath" />
+        <field name="StackId" type="StringTableFieldDefinition" value="LAEZEL_ORPHEUSPATH_RING_TAG" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(LAEZEL);Tag(REALLY_LAEZEL);Tag(LAEZEL_ORPHEUSPATH);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="836b13e9-5a66-40fa-9b43-c9f00578b611" />
+        <field name="Name" type="NameTableFieldDefinition" value="SHADOWHEART_RING_TAG" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfe0f0221g58e2g51aag0dcbgfc9b536127e5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h59c4888cgf401g1d94ge1b3g20c11d1a50c2" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOrigin_Shadowheart" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SHADOWHEART_RING_TAG" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(SHADOWHEART);Tag(REALLY_SHADOWHEART);Tag(SHADOWHEART_SHARPATH);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d36b2f3a-f33a-4bcf-b5e8-e2839919736c" />
+        <field name="Name" type="NameTableFieldDefinition" value="SHADOWHEART_ENEMYOFSHAR_RING_TAG" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5a913b4dg657bgca62g4123g476c85c7464a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbfbfd4bbgfbd6g9bd8gbe2bg04ecd646d6bf" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOrigin_Shadowheart_EnemyOfShar" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SHADOWHEART_ENEMYOFSHAR_RING_TAG" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(SHADOWHEART);Tag(REALLY_SHADOWHEART);Tag(SHADOWHEART_ENEMYOFSHARPATH);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cdee66b9-430c-4232-9863-fee41afe7987" />
+        <field name="Name" type="NameTableFieldDefinition" value="WYLL_RING_TAG" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb9520ceag7dc3g5951g1cc7gb8280684eb32" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6a4172e1gf551gb777g657dg1885784189d3" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOrigin_Wyll" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WYLL_RING_TAG" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WYLL);Tag(REALLY_WYLL);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f55f64e-9cc9-4b8e-862b-5b12e05e6b50" />
+        <field name="Name" type="NameTableFieldDefinition" value="APOSTLEOFMYRKUL_RING_TAG" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc953a335g9e3dg33d4g29e3g6cbc00854df7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6365819cg6332g8a58g1fb3g00f47c406b0e" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_ApostleOfMyrkul" />
+        <field name="StackId" type="StringTableFieldDefinition" value="APOSTLEOFMYRKUL_RING_TAG" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(APOSTLE_OF_MYRKUL);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="232f3103-d7bd-48ba-a10f-4930b6d6b78e" />
+        <field name="Name" type="NameTableFieldDefinition" value="BANITE_RING_TAG" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2e940973g1774g6db2g649ag9f0289a27a40" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4441d651gc501g7c30g9231gf6242bf470e7" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_Banite" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BANITE_RING_TAG" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(BANITE);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d53aa91b-39ed-4519-ab48-115e8648fe86" />
+        <field name="Name" type="NameTableFieldDefinition" value="BESTIAL_RING_TAG" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf212289bg4fdbg8a5agd35ag1497ec77314a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf0ec44efg9f11g1376gbb8cg1ea2302a94f6" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_Bestial" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BESTIAL_RING_TAG" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(BESTIAL);Tag(REALLY_BESTIAL);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="65c43b5a-2fbc-4207-9c0f-d3c69259535c" />
+        <field name="Name" type="NameTableFieldDefinition" value="CHOSENOFBOOOAL_RING_TAG" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8bc79397g66e0gd1f2gfc8fg2aaa08c38d69" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbdd80439gd627g98ffg5d98gb77150b4f0cf" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_ChosenOfBoooal" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CHOSENOFBOOOAL_RING_TAG" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(CHOSENOFBOOOAL);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="696b32c1-633e-4e8c-8cad-cfdec00b9209" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONSTRUCT_RING_TAG" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7466ac84gf2a3g6074g8698g392ab4cb74e6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd0ce7618gba61g8378g5213g4dc5ec0b8688" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_Construct" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CONSTRUCT_RING_TAG" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(CONSTRUCT);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f00096fb-667f-4639-8015-cb038c3b587d" />
+        <field name="Name" type="NameTableFieldDefinition" value="TRUESOUL_RING_TAG" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9bef427bg82d7g7e66gfcc1gadd9f7d5993c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h02d96a27g7a9bg91a0g63d0g7015379e6594" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_Truesoul" />
+        <field name="StackId" type="StringTableFieldDefinition" value="TRUESOUL_RING_TAG" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(TRUESOUL);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f77bbe2-547a-400f-a81e-e52b282fd9b8" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNDEAD_RING_TAG" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7aed693dg8dbfg1194g3affge8cac45ca502" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0e295f7cgc2b9gbee9ga53fg96ca1325fd7f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_Undead" />
+        <field name="StackId" type="StringTableFieldDefinition" value="UNDEAD_RING_TAG" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(UNDEAD);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="24955dae-08d9-4518-a989-36e3dbba2b43" />
+        <field name="Name" type="NameTableFieldDefinition" value="VAMPIRE_RING_TAG" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2abc4832g40a7g144dg79d4g08f05ed57799" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h05f41e8ag1f93gc971g6dceg35ebe17080f2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_Vampire" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VAMPIRE_RING_TAG" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(VAMPIRE);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
