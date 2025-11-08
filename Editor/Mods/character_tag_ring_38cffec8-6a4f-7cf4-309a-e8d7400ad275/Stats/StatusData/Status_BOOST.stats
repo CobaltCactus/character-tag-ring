@@ -1396,7 +1396,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f00096fb-667f-4639-8015-cb038c3b587d" />
         <field name="Name" type="NameTableFieldDefinition" value="TRUESOUL_RING_TAG" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9bef427bg82d7g7e66gfcc1gadd9f7d5993c" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9bef427bg82d7g7e66gfcc1gadd9f7d5993c" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h02d96a27g7a9bg91a0g63d0g7015379e6594" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="ChangeOther_Truesoul" />
         <field name="StackId" type="StringTableFieldDefinition" value="TRUESOUL_RING_TAG" />

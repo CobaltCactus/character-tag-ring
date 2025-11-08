@@ -423,7 +423,7 @@
   <content contentuid="hbdd80439gd627g98ffg5d98gb77150b4f0cf" version="1">Add this tag.</content>
   <content contentuid="h7466ac84gf2a3g6074g8698g392ab4cb74e6" version="1">Construct</content>
   <content contentuid="hd0ce7618gba61g8378g5213g4dc5ec0b8688" version="1">Add this tag. *Typically not allowed for Tavs.</content>
-  <content contentuid="h9bef427bg82d7g7e66gfcc1gadd9f7d5993c" version="1">Truesoul</content>
+  <content contentuid="h9bef427bg82d7g7e66gfcc1gadd9f7d5993c" version="2">True Soul</content>
   <content contentuid="h02d96a27g7a9bg91a0g63d0g7015379e6594" version="1">Add this tag.</content>
   <content contentuid="h7aed693dg8dbfg1194g3affge8cac45ca502" version="1">Undead</content>
   <content contentuid="h0e295f7cgc2b9gbee9ga53fg96ca1325fd7f" version="1">Add this tag. *Typically not allowed for Tavs.</content>
@@ -447,4 +447,21 @@
   <content contentuid="h82b2264fg677ag1119g165dg33960bf9a9c9" version="2">Add the WYLL and REALLY_WYLL tags. (Hidden on character sheet).</content>
   <content contentuid="h41ab6981ga42cg196eg3d46gaba05c3e01db" version="1">Lae'zel (Vlaakith Path)</content>
   <content contentuid="h9d49beedgc982g27a3g942fg822c8861f1d6" version="1">Add the LAEZEL and REALLY_LAEZEL tags. (Hidden on character sheet).</content>
+  <content contentuid="h03aba90ega182g5dbfg05f4gc57defb76c34" version="1">Apostle of Myrkul</content>
+  <content contentuid="heb9a7280g2b92gd704ge00ag9c37deab3c48" version="3">Add this tag. *Typically not allowed for Tavs. (Hidden on character sheet).</content>
+  <content contentuid="h2c1adc6ag4412g472egd252g91f218ff07d0" version="1">Banite</content>
+  <content contentuid="hf7a778e0g0b9fg895bg3791gdec15372e1f2" version="1">Add this tag. *Typically not allowed by game.</content>
+  <content contentuid="hb182c4fcg353bg49b2g8752g06ee87f8d0a3" version="2">Add this tag. *Typically not allowed for Tavs. (Hidden on character sheet).</content>
+  <content contentuid="hc8be4aedg41d7g7f5eg93a8gf63b5fa9bc91" version="1">Bestial</content>
+  <content contentuid="h300b3fbbgac8eg922bgbb44ga9fda15e010a" version="2">Add this tag. *Typically not allowed for Tavs. (Hidden on character sheet).</content>
+  <content contentuid="haa22a521g7a03g32cegac89g44ce3fc3c07f" version="1">Chosen of Boooal</content>
+  <content contentuid="h54f2f20eg4c78g5183gd009g98ed912fc3ee" version="2">Add this tag. (Hidden on character sheet).</content>
+  <content contentuid="h302744c6g1ab1g0fadg162bg64df62fad453" version="1">Construct</content>
+  <content contentuid="h520233dcgcda2g7916g4cc8g290d062e8fd8" version="2">Add this tag. *Typically not allowed for Tavs. (Hidden on character sheet).</content>
+  <content contentuid="he81d8057g5460g26c5g29c5g7827dcac995d" version="1">True Soul</content>
+  <content contentuid="h8ec17e8dg566aga035gd085ge7f42243d539" version="1">Add this tag.</content>
+  <content contentuid="hffb0f499gd4c2gf852g2ad6g6fc27828585c" version="1">Undead</content>
+  <content contentuid="hde3726e4gb346g418bg6a0cg0d5cd42e8918" version="2">Add this tag. *Typically not allowed for Tavs. (Hidden on character sheet).</content>
+  <content contentuid="h246fd48dgb0e0gf395geca2gdbc956ee150f" version="1">Vampire</content>
+  <content contentuid="h5ed35306g5eb3g81c5g90b0g11f45c4298e9" version="2">Add this tag. *Typically extremely rare for Tavs. (Hidden on character sheet).</content>
 </contentList>

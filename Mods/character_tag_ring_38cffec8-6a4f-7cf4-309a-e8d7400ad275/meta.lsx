@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <save>
-    <version major="4" minor="8" revision="0" build="200"/>
+    <version major="4" minor="8" revision="0" build="500"/>
     <region id="Config">
         <node id="root">
             <children>
@@ -9,22 +9,22 @@
                     <children>
                         <node id="ModuleShortDesc">
                             <attribute id="Folder" type="LSString" value="GustavX"/>
-                            <attribute id="MD5" type="LSString" value="34a0c6d5bef9658123228d6a19a5cc00"/>
+                            <attribute id="MD5" type="LSString" value="ef3fcba3f3684b3088ad1f9874d4957c"/>
                             <attribute id="Name" type="LSString" value="GustavX"/>
                             <attribute id="PublishHandle" type="uint64" value="0"/>
                             <attribute id="UUID" type="guid" value="cb555efe-2d9e-131f-8195-a89329d218ea"/>
-                            <attribute id="Version64" type="int64" value="145241302737902957"/>
+                            <attribute id="Version64" type="int64" value="145241946983074840"/>
                         </node>
                     </children>
                 </node>
                 <node id="ModuleInfo">
                     <attribute id="Author" type="LSString" value="CobaltCactus"/>
                     <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
-                    <attribute id="Description" type="LSString" value="Adds the Character Tag Ring to the game. It has spells that allows your character to get all class, subclass, deity, and race tags in the game.  Inspired by the abandoned &quot;Character Tags Ring&quot; by Neclomant on NexusMods with permission."/>
+                    <attribute id="Description" type="LSString" value="Adds the Character Tag Ring to the game. It has spells that allows your character to get all class, subclass, deity, race tags, and more (over 100 in total)! Inspired by the abandoned &quot;Character Tags Ring&quot; by Neclomant on NexusMods with permission."/>
                     <attribute id="FileSize" type="uint64" value="8226045"/>
                     <attribute id="Folder" type="LSString" value="character_tag_ring_38cffec8-6a4f-7cf4-309a-e8d7400ad275"/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
-                    <attribute id="MD5" type="LSString" value="5ab0581572325c8158e1750204c53e87"/>
+                    <attribute id="MD5" type="LSString" value="0c9aa8372c1ee17a62ac4c66a09787cf"/>
                     <attribute id="MenuLevelName" type="FixedString" value=""/>
                     <attribute id="Name" type="LSString" value="Character Tag Ring"/>
                     <attribute id="NumPlayers" type="uint8" value="4"/>
@@ -32,7 +32,7 @@
                     <attribute id="PublishHandle" type="uint64" value="4920745"/>
                     <attribute id="StartupLevelName" type="FixedString" value=""/>
                     <attribute id="UUID" type="FixedString" value="38cffec8-6a4f-7cf4-309a-e8d7400ad275"/>
-                    <attribute id="Version64" type="int64" value="36028801313931264"/>
+                    <attribute id="Version64" type="int64" value="36028801313931265"/>
                     <children>
                         <node id="PublishVersion">
                             <attribute id="Version64" type="int64" value="144255927718452951"/>
